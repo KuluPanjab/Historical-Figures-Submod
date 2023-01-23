@@ -5316,3 +5316,44 @@ in_disrepair = {
 call_ally_cooldown = {
 	icon = 1
 }
+
+##################################################################################################
+# Historical Figureheads.
+##################################################################################################
+
+### Prussia/Germany ###
+
+friedrich_wilhelm_iii = {
+	org_regain = 0.1
+	land_organisation = 0.05
+	# org_regain = 0.05
+	# land_organisation = 0.03
+	icon = 169
+}
+
+friedrich_wilhelm_iv = {
+	factory_owner_cost = -0.25
+	factory_throughput = 0.05
+	farm_RGO_size = -0.05
+	mine_RGO_size = -0.05
+	# factory_owner_cost = -0.12
+	# factory_throughput = 0.02
+	# farm_RGO_size = -0.02
+	# mine_RGO_size = -0.02
+	icon = 92
+}
+
+prince_wilhelm = {
+	administrative_efficiency_modifier = 0.2
+	# administrative_efficiency_modifier = 0.1
+	icon = 97 
+}
+
+wilhelm_i = {
+	global_pop_militancy_modifier = -0.02
+	global_pop_consciousness_modifier = 0.02
+	# global_pop_militancy_modifier = -0.01
+	# global_pop_consciousness_modifier = 0.01
+	ruling_party_support = 1
+	icon = 94
+}

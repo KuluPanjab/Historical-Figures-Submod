@@ -1,0 +1,135 @@
+##################################################################################################
+# political leaders of the great personalities mod.
+##################################################################################################
+
+## MONARCHY ##
+
+country_event = { # Historical Leader
+	id = 3287001
+	title = "King Friedrich Wilhelm III of Prussia" 
+	desc = "FRIEDRICHWILHELMIII"
+	picture = "friedrich_wilhelm_iii"
+	fire_only_once = yes 
+	
+	trigger = { 
+		tag = PRU 
+		year = 1836
+		NOT = { year = 1840 }
+		OR = {
+			government = prussian_constitutionalism
+			government = absolute_monarchy
+			government = hms_government
+		}
+	}
+	
+	mean_time_to_happen = { days = -1 }
+	
+	option = { 
+		name = "Long live our beloved sovereign."
+		add_country_modifier = { 
+			name = friedrich_wilhelm_iii
+			duration = -1
+		}
+	} 
+}
+
+country_event = { # Historical Event
+	id = 3287002
+	title = "The Death of Friedrich Wilhelm III of Prussia" 
+	desc = "FRIEDRICHWILHELMIIIDEATH"
+	picture = "friedrich_wilhelm_iii_death"
+	fire_only_once = yes 
+	
+	trigger = { 
+		tag = PRU 
+		has_country_modifier = friedrich_wilhelm_iii
+		OR = {
+			year = 1840
+			month = 6
+		}
+		OR = {
+			government = prussian_constitutionalism
+			government = absolute_monarchy
+			government = hms_government
+		}
+	}
+	
+	mean_time_to_happen = { days = 7 }
+	
+	option = { 
+		name = "A great loss."
+		remove_country_modifier = friedrich_wilhelm_iii
+		add_country_modifier = { 
+			name = friedrich_wilhelm_iv
+			duration = -1
+		}
+	} 
+}
+
+country_event = { # Historical Leader
+	id = 3287003
+	title = "Prince Wilhelm Appointed As Regent" 
+	desc = "PRINCEWILHELMREGENCY"
+	picture = "prince_wilhelm"
+	fire_only_once = yes 
+	
+	trigger = { 
+		tag = PRU 
+		year = 1857
+		NOT = { year = 1861 }
+		OR = {
+			government = prussian_constitutionalism
+			government = absolute_monarchy
+			government = hms_government
+		}
+	}
+	
+	mean_time_to_happen = { months = 2 }
+	
+	option = { 
+		name = "Uncertain times..."
+		add_country_modifier = { 
+			name = prince_wilhelm
+			duration = -1
+		}
+		add_country_modifier = { 
+			name = regency_modifier
+			duration = -1
+		}
+	} 
+}
+
+country_event = { # Historical Event
+	id = 3287004
+	title = "The Coronation of Wilhelm I" 
+	desc = "WILHELMICORONATION"
+	picture = "wilhelm_i_coronation"
+	fire_only_once = yes 
+	
+	trigger = { 
+		tag = PRU 
+		AND = {
+			year = 1861
+			month = 1
+		}
+		NOT = { year = 1861 }
+		OR = {
+			government = prussian_constitutionalism
+			government = absolute_monarchy
+			government = hms_government
+		}
+	}
+	
+	mean_time_to_happen = { days = 2 }
+	
+	option = { 
+		name = "Many graces to our sovereign!"
+		remove_country_modifier = friedrich_wilhelm_iv
+		remove_country_modifier = prince_wilhelm
+		remove_country_modifier = regency_modifier
+		add_country_modifier = { 
+			name = wilhelm_i
+			duration = -1
+		}
+	} 
+}
