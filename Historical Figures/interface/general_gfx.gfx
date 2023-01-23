@@ -8,7 +8,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_icon_religion"
 		texturefile = "gfx\\interface\\icon_religion.dds"
-		noOfFrames = 19
+		noOfFrames = 27
 		norefcount = yes
 	}
 	spriteType = {
@@ -24,6 +24,11 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 	spriteType = {
+		name = "GFX_checkbox_small"
+		textureFile = "gfx\\interface\\checkbox_small.tga"
+		noOfFrames = 2
+	}
+	spriteType = {
 		name = "GFX_army_icon_2"
 		textureFile = "gfx\\interface\\army_icon_2.dds"
 		noOfFrames = 2
@@ -32,12 +37,6 @@ spriteTypes = {
 		name = "GFX_diplo_gp_flag"
 		textureFile1 = "gfx\\interface\\diplo_gp_overlay.tga"
 		textureFile2 = "gfx\\interface\\diplo_gp_mask.tga"
-		effectFile = "gfx\\FX\\maskedflag.fx"
-	}
-		maskedShieldType = {
-		name = "GFX_diplo_gp_flag2"
-		textureFile1 = "gfx\\interface\\diplo_gp_overlay2.tga"
-		textureFile2 = "gfx\\interface\\diplo_gp_mask2.tga"
 		effectFile = "gfx\\FX\\maskedflag.fx"
 	}
 	maskedShieldType = {
@@ -81,6 +80,10 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\button_standard_177.tga"
 	}
 	textSpriteType = {
+		name = "GFX_button_standard_144_red"
+		texturefile = "gfx\\interface\\button_standard_144_red.tga"
+	}
+	textSpriteType = {
 		name = "GFX_button_standard_144"
 		texturefile = "gfx\\interface\\button_standard_144.tga"
 	}
@@ -107,6 +110,10 @@ spriteTypes = {
 	textSpriteType = {
 		name = "GFX_sortbutton_292"
 		texturefile = "gfx\\interface\\sortbutton_292.tga"
+	}
+	textSpriteType = {
+		name = "GFX_sortbutton_240"
+		texturefile = "gfx\\interface\\sortbutton_240.tga"
 	}
 	textSpriteType = {
 		name = "GFX_sortbutton_224"
@@ -336,12 +343,4 @@ spriteTypes = {
 		textureFile2 = "gfx\\interface\\topbarflag_mask2.tga"
 		effectFile = "gfx\\FX\\maskedflag.fx"
 	}
-	
-	spriteType = {
-		name = "GFX_topbar_flag_overlay_trans2"
-		texturefile = "gfx\\interface\\topbar_flag_overlay2.dds"
-		noOfFrames = 4
-		allwaystransparent = yes
-	}
-	
 }
