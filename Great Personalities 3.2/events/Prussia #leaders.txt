@@ -1,0 +1,93 @@
+##################################################################################################
+# political leaders of the great personalities mod.
+##################################################################################################
+
+## MONARCHY ##
+
+country_event = { # Historical Event
+	id = 3287001
+	title = "The Death of Friedrich Wilhelm III of Prussia" 
+	desc = "FRIEDRICHWILHELMIIIDEATH"
+	picture = "friedrich_wilhelm_iii_death"
+	fire_only_once = yes 
+	
+	trigger = { 
+		tag = PRU 
+		nationalvalue = friedrich_wilhelm_iii
+		OR = {
+			year = 1840
+			month = 6
+		}
+		OR = {
+			government = prussian_constitutionalism
+			government = absolute_monarchy
+			government = hms_government
+		}
+	}
+	
+	mean_time_to_happen = { days = 7 }
+	
+	option = { 
+		name = "A great loss."
+		nationalvalue = friedrich_wilhelm_iv
+	} 
+}
+
+country_event = { # Historical Leader
+	id = 3287002
+	title = "Prince Wilhelm Appointed As Regent" 
+	desc = "PRINCEWILHELMREGENCY"
+	picture = "prince_wilhelm"
+	fire_only_once = yes 
+	
+	trigger = { 
+		tag = PRU 
+		year = 1857
+		NOT = { year = 1861 }
+		OR = {
+			government = prussian_constitutionalism
+			government = absolute_monarchy
+			government = hms_government
+		}
+	}
+	
+	mean_time_to_happen = { months = 2 }
+	
+	option = { 
+		name = "Uncertain times..."
+		add_country_modifier = { 
+			name = regency_modifier
+			duration = -1
+		}
+	} 
+}
+
+country_event = { # Historical Event
+	id = 3287003
+	title = "The Coronation of Wilhelm I" 
+	desc = "WILHELMICORONATION"
+	picture = "wilhelm_i_coronation"
+	fire_only_once = yes 
+	
+	trigger = { 
+		tag = PRU 
+		AND = {
+			year = 1861
+			month = 1
+		}
+		NOT = { year = 1861 }
+		OR = {
+			government = prussian_constitutionalism
+			government = absolute_monarchy
+			government = hms_government
+		}
+	}
+	
+	mean_time_to_happen = { days = 2 }
+	
+	option = { 
+		name = "Many graces to our sovereign!"
+		remove_country_modifier = regency_modifier
+		nationalvalue = wilhelm_i
+	} 
+}

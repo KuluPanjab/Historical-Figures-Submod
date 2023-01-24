@@ -1,0 +1,7 @@
+#############################################;;;;;;;x
+#Prussian Leaders;;;;;;;x
+#############################################;;;;;;;x
+POLITICS_NATIONALVALUE_TOOLTIP;$NATIONALVALUE$\n;;;;;;;;;x;;;;
+CHANGE_NATIONALVALUE;$NATIONALVALUE$ joins the government.\n;;;;;;;;;x;;;;
+NOT_HAS_NATIONAL_VALUE;Leader is NOT $NATIONALVALUE$.;;;;;;;;;x;;;;
+HAS_NATIONAL_VALUE;Leader is $NATIONALVALUE$.;;;;;;;;;x;;;;
