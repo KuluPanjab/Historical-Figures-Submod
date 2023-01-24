@@ -13,7 +13,7 @@ country_event = { # Historical Leader
 	
 	trigger = { 
 		tag = PRU 
-		year = 1836
+		year = 1830
 		NOT = { year = 1840 }
 		OR = {
 			government = prussian_constitutionalism

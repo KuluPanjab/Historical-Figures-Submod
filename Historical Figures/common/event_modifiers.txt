@@ -2936,13 +2936,6 @@ dour_economist = {
     issue_change_speed = -0.1
     icon = 17
 }
-otto_von_bismarck = {
-    prestige = 0.02
-    diplomatic_points_modifier = 0.25
-    influence_modifier = 0.2
-    ruling_party_support = 0.5
-    icon = 17
-}
 
 wilhelminism = {
     prestige = 0.05
@@ -5089,4 +5082,70 @@ wilhelm_i = {
 	# global_pop_consciousness_modifier = 0.01
 	ruling_party_support = 1
 	icon = 94
+}
+
+otto_von_bismarck = {
+    prestige = 0.02
+    diplomatic_points_modifier = 0.25
+    influence_modifier = 0.2
+    ruling_party_support = 0.5
+    icon = 84
+}
+
+## Prussia/Germany Socialist-Communist Leaders ##
+
+wilhelm_weitling = {
+	icon = 100  
+}
+
+ludwig_feuerbach = {
+	icon = 163  
+}
+
+ferdinand_freiligrat = {
+	icon = 76 
+}
+
+karl_marx = {
+	icon = 66
+}
+
+johann_philipp_becke = {
+	icon = 157
+}
+
+karl_grun = {
+	icon = 108
+}
+
+friedrich_engels = {
+	icon = 163
+}
+
+august_bebel = {
+	icon = 70
+}
+
+karl_liebknecht = {
+	icon = 65
+}
+
+friedrich_ebert = {
+	icon = 60
+}
+
+adolf_von_harnack = {
+	icon = 122
+}
+
+eduard_bernstein = {
+	icon = 106
+}
+
+philipp_scheidemann = {
+	icon = 122
+}
+
+wilhelm_pieck = {
+	icon = 104
 }
