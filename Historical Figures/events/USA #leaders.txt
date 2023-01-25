@@ -2,7 +2,7 @@
 # political leaders of the great personalities mod.
 ##################################################################################################
 
-## MONARCHY ##
+## UNITED STATES OF AMERICA ##
 
 country_event = { # Historical Leader
 	

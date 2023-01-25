@@ -5081,6 +5081,15 @@ wilhelm_i = {
 	# global_pop_militancy_modifier = -0.01
 	# global_pop_consciousness_modifier = 0.01
 	ruling_party_support = 1
+	icon = 97
+}
+
+kaiser_wilhelm_i = {
+	global_pop_militancy_modifier = -0.02
+	global_pop_consciousness_modifier = 0.02
+	# global_pop_militancy_modifier = -0.01
+	# global_pop_consciousness_modifier = 0.01
+	ruling_party_support = 1
 	icon = 94
 }
 

@@ -1,0 +1,307 @@
+###1836 US Election/Democrats###
+country_event = {
+	id = USAC01
+    title = "1836 Election Results"
+    desc = "EVTDESCUSAC01"
+    picture = "van_buren_elected"
+    trigger = {
+		ai = no
+		OR = {
+			tag = USA
+			tag = US2
+		}
+		government = democracy
+		election = no
+		AND = {
+			year = 1837
+			month = 3
+		}
+		ruling_party_ideology = conservative
+	}
+	
+	major = yes
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 4
+    }
+	
+	option = {
+	    name = "A great victory for the Democrats."
+	    nationalvalue = martin_van_buren
+		upper_house = {
+			ideology = conservative
+			value = 0.25
+		}
+	}
+}
+
+###1840 US Election/Democrats###
+country_event = {
+	id = USAC02
+    title = "1840 Election Results"
+    desc = "EVTDESCUSAC02"
+    picture = "van_buren_elected"
+    trigger = {
+		ai = no
+		OR = {
+			tag = USA
+			tag = US2
+		}
+		government = democracy
+		election = no
+		AND = {
+			year = 1841
+			month = 3
+		}
+		ruling_party_ideology = conservative
+	}
+	
+	major = yes
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 4
+    }
+	
+	option = {
+	    name = "A great victory for the Democrats."
+	    nationalvalue = martin_van_buren
+		upper_house = {
+			ideology = conservative
+			value = 0.25
+		}
+	}
+}
+
+###1844 US Election/Democrats###
+country_event = {
+	id = USAC03
+    title = "1844 Election Results"
+    desc = "EVTDESCUSAC03"
+    picture = "polk_elected"
+    trigger = {
+		ai = no
+		OR = {
+			tag = USA
+			tag = US2
+		}
+		government = democracy
+		election = no
+		AND = {
+			year = 1845
+			month = 3
+		}
+		ruling_party_ideology = conservative
+	}
+	
+	major = yes
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 4
+    }
+	
+	option = {
+	    name = "A great victory for the Democrats."
+	    nationalvalue = james_polk
+		upper_house = {
+			ideology = conservative
+			value = 0.25
+		} 
+	}
+}
+
+###1848 US Election/Democrats###
+country_event = {
+	id = USAC04
+    title = "1848 Election Results"
+    desc = "EVTDESCUSAC04"
+    picture = "cass_elected"
+    trigger = {
+		ai = no
+		OR = {
+			tag = USA
+			tag = US2
+		}
+		government = democracy
+		election = no
+		AND = {
+			year = 1849
+			month = 3
+		}
+		ruling_party_ideology = conservative
+	}
+	
+	major = yes
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 4
+    }
+	
+	option = {
+	    name = "A great victory for the Democrats."
+	    nationalvalue = lewis_cass
+		upper_house = {
+			ideology = conservative
+			value = 0.25
+		}
+	}
+}
+
+###1852 US Election/Democrats###
+country_event = {
+	id = USAC05
+    title = "1852 Election Results"
+    desc = "EVTDESCUSAC05"
+    picture = "pierce_elected"
+    trigger = {
+		ai = no
+		OR = {
+			tag = USA
+			tag = US2
+		}
+		government = democracy
+		election = no
+		AND = {
+			year = 1853
+			month = 3
+		}
+		ruling_party_ideology = conservative
+	}
+	
+	major = yes
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 4
+    }
+	
+	option = {
+	    name = "A great victory for the Democrats."
+	    nationalvalue = franklin_pierce
+		upper_house = {
+			ideology = conservative
+			value = 0.25
+		}
+	}
+}
+
+###1856 US Election/Democrats###
+country_event = {
+	id = USAC06
+    title = "1852 Election Results"
+    desc = "EVTDESCUSAC06"
+    picture = "buchanan_elected"
+    trigger = {
+		ai = no
+		OR = {
+			tag = USA
+			tag = US2
+		}
+		government = democracy
+		election = no
+		AND = {
+			year = 1857
+			month = 3
+		}
+		ruling_party_ideology = conservative
+	}
+	
+	major = yes
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 4
+    }
+	
+	option = {
+	    name = "A great victory for the Democrats."
+	    nationalvalue = james_buchanan
+		upper_house = {
+			ideology = conservative
+			value = 0.25
+		}
+	}
+}
+
+###1860 US Election/Democrats###
+country_event = {
+	id = USAC07
+    title = "1852 Election Results"
+    desc = "EVTDESCUSAC07"
+    picture = "douglas_elected"
+    trigger = {
+		ai = no
+		OR = {
+			tag = USA
+			tag = US2
+		}
+		government = democracy
+		election = no
+		AND = {
+			year = 1861
+			month = 3
+		}
+		OR = {
+			ruling_party_ideology = conservative
+		}
+	}
+	
+	major = yes
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 4
+    }
+	
+	option = {
+	    name = "A great victory for the Democrats."
+	    nationalvalue = stephen_douglas
+		upper_house = {
+			ideology = conservative
+			value = 0.25
+		}
+	}
+}
+
+###1864 US Election/Democrats###
+country_event = {
+	id = USAC08
+    title = "1852 Election Results"
+    desc = "EVTDESCUSAC08"
+    picture = "mcclellan_elected"
+    trigger = {
+		ai = no
+		OR = {
+			tag = USA
+			tag = US2
+		}
+		government = democracy
+		election = no
+		AND = {
+			year = 1865
+			month = 3
+		}
+		OR = {
+			ruling_party_ideology = conservative
+		}
+	}
+	
+	major = yes
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 4
+    }
+	
+	option = {
+	    name = "A great victory for the Democrats."
+	    nationalvalue = george_mcclellan
+		upper_house = {
+			ideology = conservative
+			value = 0.25
+		}
+	}
+}

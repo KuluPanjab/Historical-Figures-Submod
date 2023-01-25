@@ -1,0 +1,88 @@
+###United States###
+
+andrew_jackson = {
+}
+
+###1836/1840###
+martin_van_buren = {
+}
+
+william_harrison = {
+}
+
+hugh_white = {
+}
+
+daniel_webster = {
+}
+
+willie_mangum = {
+}
+
+john_tyler = {
+}
+
+###1844###
+james_polk = {
+}
+
+henry_clay = {
+}
+
+###1848###
+zachary_taylor = {
+}
+
+lewis_cass = {
+}
+
+martin_van_buren_1848 = {
+}
+
+###1852###
+franklin_pierce = {
+}
+
+winfield_scott = {
+}
+
+###1856###
+james_buchanan = {
+}
+
+john_fremont = {
+}
+
+millard_fillmore = {
+}
+
+###1859###
+
+joshua_norton = {
+}
+
+###1860###
+abraham_lincoln = {
+}
+
+john_breckinridge = {
+}
+
+john_bell = {
+}
+
+stephen_douglas = {
+}
+
+###1860/CSA###
+
+jefferson_davis = {
+}
+
+###1864###
+
+george_mcclellan = {
+}
+
+andrew_johnson = {
+}
