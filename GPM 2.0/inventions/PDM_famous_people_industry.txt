@@ -6,6 +6,14 @@ robert_koch = {
     news = no
     chance = {
         base = 2
+        modifier = {
+            factor = 3
+            has_country_flag = nv_order
+        }
+        modifier = {
+            factor = 4
+            has_country_flag = nv_productivity
+        }
     }
     effect = {
         permanent_prestige = 5
@@ -21,6 +29,14 @@ joseph_lister = {
     news = no
     chance = {
         base = 2
+        modifier = {
+            factor = 3
+            has_country_flag = nv_order
+        }
+        modifier = {
+            factor = 4
+            has_country_flag = nv_productivity
+        }
     }
     effect = {
         shared_prestige = 5
@@ -35,6 +51,14 @@ louis_pasteur = {
     news = no
     chance = {
         base = 2
+        modifier = {
+            factor = 3
+            has_country_flag = nv_order
+        }
+        modifier = {
+            factor = 4
+            has_country_flag = nv_productivity
+        }
     }
     effect = {
         shared_prestige = 5

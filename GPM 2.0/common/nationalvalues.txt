@@ -1,88 +1,42 @@
-###United States###
+## Unknown ##
 
-andrew_jackson = {
+pm_unknown = {
 }
 
-###1836/1840###
-martin_van_buren = {
+### Political Leaders -- African ###
+
+african_pm_diplomat = {
 }
 
-william_harrison = {
+african_pm_industrialist = {
 }
 
-hugh_white = {
+african_pm_intellectual = {
 }
 
-daniel_webster = {
+african_pm_militarist = {
 }
 
-willie_mangum = {
+african_pm_popular_figurehead = {
 }
 
-john_tyler = {
+african_pm_landowner = {
 }
 
-###1844###
-james_polk = {
+african_pm_union_boss = {
 }
 
-henry_clay = {
+african_pm_kleptocrat = {
 }
 
-###1848###
-zachary_taylor = {
+african_pm_reformist = {
 }
 
-lewis_cass = {
+african_pm_imperialist = {
 }
 
-martin_van_buren_1848 = {
+african_pm_isolationist = {
 }
 
-###1852###
-franklin_pierce = {
-}
-
-winfield_scott = {
-}
-
-###1856###
-james_buchanan = {
-}
-
-john_fremont = {
-}
-
-millard_fillmore = {
-}
-
-###1859###
-
-joshua_norton = {
-}
-
-###1860###
-abraham_lincoln = {
-}
-
-john_breckinridge = {
-}
-
-john_bell = {
-}
-
-stephen_douglas = {
-}
-
-###1860/CSA###
-
-jefferson_davis = {
-}
-
-###1864###
-
-george_mcclellan = {
-}
-
-andrew_johnson = {
+african_pm_autocrat = {
 }

@@ -118,6 +118,14 @@ spirit_of_freedom = {
         base = 2
         modifier = {
             factor = 5
+            has_country_flag = nv_liberty
+        }
+        modifier = {
+            factor = 5
+            has_country_flag = nv_equality
+        }
+        modifier = {
+            factor = 5
             year = 1847
         }
         modifier = {

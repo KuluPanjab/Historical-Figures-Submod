@@ -1,0 +1,178 @@
+### African ###
+country_event = {
+	id = 100041003
+    title = "First Minister Appointed"
+    desc = "A new first minister has been appointed."
+    picture = "danishgovernment"
+    trigger = {
+		ai = no
+		OR = {
+			is_culture_group = west_african
+			is_culture_group = central_african
+			is_culture_group = east_african
+			is_culture_group = southern_african
+			is_culture_group = african_diaspora_cultures
+		}
+		OR = {
+            has_country_flag = tory_election_win
+            has_country_flag = fascist_election_win
+            has_country_flag = reactionary_election_win
+        }
+		NOT = {
+            government = proletarian_dictatorship
+            government = presidential_dictatorship
+            government = fascist_dictatorship
+        }
+	}
+	
+	immediate = {
+		set_country_flag = minister_found
+    }
+	
+	option = {
+	    name = "I hope they're a good one..."
+	    random_list = {
+			# Audax Validator "." Ignore_NEXT
+			8.3 = {
+				nationalvalue = african_pm_diplomat
+				clr_country_flag = minister_found
+				clr_country_flag = nv_order
+				clr_country_flag = nv_liberty
+				clr_country_flag = nv_equality
+				clr_country_flag = nv_tradition
+				clr_country_flag = nv_productivity
+				clr_country_flag = nv_autocracy
+			}
+			8.3 = {
+				nationalvalue = african_pm_industrialist
+				clr_country_flag = minister_found
+				clr_country_flag = nv_order
+				clr_country_flag = nv_liberty
+				clr_country_flag = nv_equality
+				clr_country_flag = nv_tradition
+				clr_country_flag = nv_productivity
+				clr_country_flag = nv_autocracy
+				set_country_flag = nv_productivity
+			}
+			8.3 = {
+				nationalvalue = african_pm_intellectual
+				clr_country_flag = minister_found
+				clr_country_flag = nv_order
+				clr_country_flag = nv_liberty
+				clr_country_flag = nv_equality
+				clr_country_flag = nv_tradition
+				clr_country_flag = nv_productivity
+				clr_country_flag = nv_autocracy
+				set_country_flag = nv_liberty
+				set_country_flag = nv_equality
+				set_country_flag = nv_productivity
+			}
+			8.3 = {
+				nationalvalue = african_pm_militarist
+				clr_country_flag = minister_found
+				clr_country_flag = nv_order
+				clr_country_flag = nv_liberty
+				clr_country_flag = nv_equality
+				clr_country_flag = nv_tradition
+				clr_country_flag = nv_productivity
+				clr_country_flag = nv_autocracy
+				set_country_flag = nv_order
+				set_country_flag = nv_autocracy
+			}
+			8.3 = {
+				nationalvalue = african_pm_popular_figurehead
+				clr_country_flag = minister_found
+				clr_country_flag = nv_order
+				clr_country_flag = nv_liberty
+				clr_country_flag = nv_equality
+				clr_country_flag = nv_tradition
+				clr_country_flag = nv_productivity
+				clr_country_flag = nv_autocracy
+			}
+			8.3 = {
+				nationalvalue = african_pm_landowner
+				clr_country_flag = minister_found
+				clr_country_flag = nv_order
+				clr_country_flag = nv_liberty
+				clr_country_flag = nv_equality
+				clr_country_flag = nv_tradition
+				clr_country_flag = nv_productivity
+				clr_country_flag = nv_autocracy
+				set_country_flag = nv_productivity
+				set_country_flag = nv_order
+				set_country_flag = nv_tradition
+			}
+			8.3 = {
+				nationalvalue = african_pm_union_boss
+				clr_country_flag = minister_found
+				clr_country_flag = nv_order
+				clr_country_flag = nv_liberty
+				clr_country_flag = nv_equality
+				clr_country_flag = nv_tradition
+				clr_country_flag = nv_productivity
+				clr_country_flag = nv_autocracy
+				set_country_flag = nv_equality
+				set_country_flag = nv_liberty
+				set_country_flag = nv_productivity
+			}
+			8.3 = {
+				nationalvalue = african_pm_kleptocrat
+				clr_country_flag = minister_found
+				clr_country_flag = nv_order
+				clr_country_flag = nv_liberty
+				clr_country_flag = nv_equality
+				clr_country_flag = nv_tradition
+				clr_country_flag = nv_productivity
+				clr_country_flag = nv_autocracy
+			}
+			8.3 = {
+				nationalvalue = african_pm_reformist
+				clr_country_flag = minister_found
+				clr_country_flag = nv_order
+				clr_country_flag = nv_liberty
+				clr_country_flag = nv_equality
+				clr_country_flag = nv_tradition
+				clr_country_flag = nv_productivity
+				clr_country_flag = nv_autocracy
+				set_country_flag = nv_liberty
+				set_country_flag = nv_equality
+			}
+			8.3 = {
+				nationalvalue = african_pm_imperialist
+				clr_country_flag = minister_found
+				clr_country_flag = nv_order
+				clr_country_flag = nv_liberty
+				clr_country_flag = nv_equality
+				clr_country_flag = nv_tradition
+				clr_country_flag = nv_productivity
+				clr_country_flag = nv_autocracy
+				set_country_flag = nv_autocracy
+				set_country_flag = nv_order
+			}
+			8.3 = {
+				nationalvalue = african_pm_isolationist
+				clr_country_flag = minister_found
+				clr_country_flag = nv_order
+				clr_country_flag = nv_liberty
+				clr_country_flag = nv_equality
+				clr_country_flag = nv_tradition
+				clr_country_flag = nv_productivity
+				clr_country_flag = nv_autocracy
+				set_country_flag = nv_tradition
+				set_country_flag = nv_productivity
+			}
+			8.3 = {
+				nationalvalue = african_pm_autocrat
+				clr_country_flag = minister_found
+				clr_country_flag = nv_order
+				clr_country_flag = nv_liberty
+				clr_country_flag = nv_equality
+				clr_country_flag = nv_tradition
+				clr_country_flag = nv_productivity
+				clr_country_flag = nv_autocracy
+				set_country_flag = nv_autocracy
+				set_country_flag = nv_order
+			}
+		}
+	}
+}

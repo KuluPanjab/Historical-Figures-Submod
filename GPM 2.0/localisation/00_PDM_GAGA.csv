@@ -1176,7 +1176,7 @@ POP_DOMINANT_ISSUE_EFFECT;* Become §Y$PERCENTAGE$§W more in favour of §Y$ISSUE$§
 INHERIT;* Inherit §Y$WHO$§W.\n;;;;;;;;;;;;;
 RELATION_CHANGE_SHORT;* Relation with §Y$PASSIVE$§W changed by $MUCH$.\n;;;;;;;;;;;;;
 IDEOLOGY_ENABLED;* Enable §Y$NAME$§W in the world.\n;;;;;;;;;;;;;
-CHANGE_NATIONALVALUE;* Leader changes to §Y$NATIONALVALUE$§!\n;;;;;;;;;;;;;
+CHANGE_NATIONALVALUE;* Change government rulership.\n;;;;;;;;;;;;;
 ADD_ACCEPTED_CULTURE;* §Y$CULTURE$§W added as accepted culture.\n;;;;;;;;;;;;;
 REMOVE_ACCEPTED_CULTURE;* §Y$CULTURE$§W removed from accepted cultures.\n;;;;;;;;;;;;;
 CHANGE_RELIGION_EFFECT;* Change religion to: §Y$NAME$§W.\n;;;;;;;;;;;;;

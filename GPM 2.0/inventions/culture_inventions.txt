@@ -9,6 +9,10 @@ romanticist_literature = {
             average_consciousness = 3
         }
         modifier = {
+            factor = 2
+            has_country_flag = nv_order
+        }
+        modifier = {
             factor = -2
             OR = {
                 invention = romanticist_art
@@ -79,6 +83,10 @@ realist_literature = {
         modifier = {
             factor = 3
             is_greater_power = no
+        }
+        modifier = {
+            factor = 2
+            has_country_flag = nv_equality
         }
         modifier = {
             factor = -1
@@ -916,6 +924,10 @@ egalitarianism = {
     chance = {
         base = 2
         modifier = {
+            factor = 3
+            has_country_flag = nv_equality
+        }
+        modifier = {
             factor = 2
             OR = {
 				government = democracy
@@ -1090,6 +1102,10 @@ individualism = {
     chance = {
         base = 2
         modifier = {
+            factor = 3
+            has_country_flag = nv_liberty
+        }
+        modifier = {
             factor = 1
             average_consciousness = 2
         }
@@ -1107,6 +1123,10 @@ secularization = {
     news = no
     chance = {
         base = 1
+        modifier = {
+            factor = 3
+            has_country_flag = nv_equality
+        }
         modifier = {
             factor = 1
             OR = {
@@ -1129,6 +1149,10 @@ social_conscience = {
         base = 2
         modifier = {
             factor = 3
+            has_country_flag = nv_equality
+        }
+        modifier = {
+            factor = 3
             average_consciousness = 2
         }
     }
@@ -1145,6 +1169,10 @@ collectivism = {
     news = no
     chance = {
         base = 2
+        modifier = {
+            factor = 2
+            has_country_flag = nv_equality
+        }
         modifier = {
             factor = 1
             ruling_party_ideology = socialist
@@ -1189,6 +1217,10 @@ social_justice = {
     chance = {
         base = 2
         modifier = {
+            factor = 2
+            has_country_flag = nv_equality
+        }
+        modifier = {
             factor = 1
             OR = {
                 ruling_party_ideology = liberal
@@ -1209,6 +1241,10 @@ populism_vs._establishment = {
         modifier = {
             factor = 2
             average_consciousness = 3
+        }
+        modifier = {
+            factor = 1
+            has_country_flag = nv_order
         }
     }
     political_reform_desire = 0.05
@@ -1243,6 +1279,10 @@ bureaucracy_vs._nepotism = {
     chance = {
         base = 2
         modifier = {
+            factor = 2
+            has_country_flag = nv_order
+        }
+        modifier = {
             factor = 1
             average_consciousness = 2
         }
@@ -1261,6 +1301,10 @@ meritocracy_vs._aristocracy = {
         modifier = {
             factor = 1
             literacy = 0.4
+        }
+        modifier = {
+            factor = 2
+            has_country_flag = nv_liberty
         }
     }
     effect = {
@@ -1303,6 +1347,10 @@ biased_multiculturalism = {
             factor = 2
             ruling_party_ideology = conservative
         }
+        modifier = {
+            factor = 1
+            has_country_flag = nv_order
+        }
     }
     effect = {
         colonial_migration = 0.05
@@ -1316,6 +1364,14 @@ manifest_destiny_invention = {
     news = no
     chance = {
         base = 2
+        modifier = {
+            factor = 3
+            has_country_flag = nv_liberty
+        }
+        modifier = {
+            factor = -1
+            has_country_flag = nv_order
+        }
         modifier = {
             factor = 2
             ruling_party_ideology = liberal
@@ -1428,6 +1484,10 @@ dogma_of_violence = {
             factor = 3
             average_consciousness = 3
         }
+        modifier = {
+            factor = 2
+            has_country_flag = nv_order
+        }
     }
     effect = {
         enable_crime = anarchic_bomb_throwers
@@ -1438,6 +1498,10 @@ dogma_of_mass_action = {
     news = no
     chance = {
         base = 2
+        modifier = {
+            factor = 2
+            has_country_flag = nv_equality
+        }
         modifier = {
             factor = 3
             ruling_party_ideology = socialist
@@ -1466,6 +1530,10 @@ terrorism = {
                 ruling_party_ideology = communist
             }
         }
+        modifier = {
+            factor = -1
+            has_country_flag = nv_liberty
+        }
     }
     effect = {
         enable_crime = terrorist_cells
@@ -1492,6 +1560,10 @@ secret_police = {
                 ruling_party_ideology = communist
             }
         }
+        modifier = {
+            factor = 2
+            has_country_flag = nv_order
+        }
     }
     effect = {
         rebel_org_gain = {
@@ -1507,6 +1579,13 @@ womens_suffrage_movement = {
     news = no
     chance = {
         base = 3
+        modifier = {
+            factor = 2
+            OR = {
+                has_country_flag = nv_liberty
+                has_country_flag = nv_equality
+            }
+        }
         modifier = {
             factor = 3
             ruling_party_ideology = liberal
@@ -1531,6 +1610,10 @@ rhetoric_of_hate = {
                 ruling_party_ideology = fascist
                 ruling_party_ideology = communist
             }
+        }
+        modifier = {
+            factor = -1
+            has_country_flag = nv_liberty
         }
     }
     effect = {
@@ -1565,6 +1648,10 @@ anti_egalitarianism = {
     news = no
     chance = {
         base = 2
+        modifier = {
+            factor = 2
+            has_country_flag = nv_order
+        }
         modifier = {
             factor = 3
             ruling_party_ideology = reactionary
@@ -1639,6 +1726,10 @@ the_doctrine_of_fascism = {
             factor = 2
             ruling_party_ideology = fascist
         }
+        modifier = {
+            factor = 1
+            has_country_flag = nv_order
+        }
 
         modifier = {
             factor = 2
@@ -1690,6 +1781,10 @@ the_police_state = {
                 ruling_party_ideology = communist
             }
         }
+        modifier = {
+            factor = 2
+            has_country_flag = nv_order
+        }
     }
     effect = {
         rebel_org_gain = {
@@ -1706,6 +1801,10 @@ mass_advertising = {
     news = no
     chance = {
         base = 2
+        modifier = {
+            factor = 7
+            has_country_flag = nv_liberty
+        }
         modifier = {
             factor = 2
             OR = {
@@ -1757,6 +1856,10 @@ the_talkies = {
     news = no
     chance = {
         base = 2
+        modifier = {
+            factor = 2
+            has_country_flag = nv_liberty
+        }
         modifier = {
             factor = 2
             average_consciousness = 3

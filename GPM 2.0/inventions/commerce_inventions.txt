@@ -9,6 +9,10 @@ multitude_of_financial_instruments = {
         base = 2
         modifier = {
             factor = 2
+            has_country_flag = nv_liberty
+        }
+        modifier = {
+            factor = 2
             trade_policy = free_trade
         }
     }
@@ -183,6 +187,10 @@ private_bank_monitoring = {
             factor = 2
             economic_policy = state_capitalism
         }
+        modifier = {
+            factor = 1
+            has_country_flag = nv_order
+        }
     }
     effect = {
         tax_eff = 1
@@ -196,6 +204,10 @@ market_behaviour_monitoring = {
     news = no
     chance = {
         base = 2
+        modifier = {
+            factor = 2
+            has_country_flag = nv_order
+        }
         modifier = {
             factor = 1
             ruling_party_ideology = socialist
@@ -215,6 +227,10 @@ buying_on_margin = {
             factor = 2
             ruling_party_ideology = liberal
         }
+        modifier = {
+            factor = 1
+            has_country_flag = nv_liberty
+        }
     }
     effect = {
         factory_cost = -0.01
@@ -226,6 +242,10 @@ silver_standard = {
     news = no
     chance = {
         base = 2
+        modifier = {
+            factor = 1
+            has_country_flag = nv_equality
+        }
         modifier = {
             factor = 1
             economic_policy = interventionism
@@ -240,6 +260,10 @@ decimal_monetary_system = {
     news = no
     chance = {
         base = 2
+        modifier = {
+            factor = 2
+            has_country_flag = nv_order
+        }
         modifier = {
             factor = 1
             economic_policy = interventionism
@@ -338,6 +362,10 @@ state_bond_monetary_mechanism = {
     chance = {
         base = 2
         modifier = {
+            factor = 2
+            has_country_flag = nv_order
+        }
+        modifier = {
             factor = 1
             economic_policy = interventionism
         }
@@ -435,6 +463,10 @@ john_elliot_cairnes = {
     chance = {
         base = 2
         modifier = {
+            factor = 2
+            has_country_flag = nv_liberty
+        }
+        modifier = {
             factor = 1
             trade_unions = all_trade_unions
         }
@@ -473,6 +505,10 @@ john_stuart_mill = {
     chance = {
         base = 2
         modifier = {
+            factor = 2
+            has_country_flag = nv_equality
+        }
+        modifier = {
             factor = 1
             ruling_party_ideology = liberal
         }
@@ -491,25 +527,34 @@ pierre_joseph_proudhon = {
     chance = {
         base = 5
         modifier = {
+            factor = 5
+            has_country_flag = nv_liberty
+        }
+        modifier = {
             factor = 2
             ruling_party_ideology = socialist
         }
+
         modifier = {
             factor = 2
             invention = atheism
         }
+
         modifier = {
             factor = 2
             invention = secularization
         }
+
         modifier = {
             factor = 2
             invention = authoritarianism
         }
+
         modifier = {
             factor = 2
             invention = rationalism
         }
+
         modifier = {
             factor = 2
             invention = collectivism
@@ -532,37 +577,49 @@ karl_marx = {
             ruling_party_ideology = communist
         }
         modifier = {
+            factor = 5
+            has_country_flag = nv_equality
+        }
+        modifier = {
             factor = 1
             economic_policy = planned_economy
         }
+
         modifier = {
             factor = 8
             invention = friedrich_engels
         }
+
         modifier = {
             factor = 2
             invention = egalitarianism
         }
+
         modifier = {
             factor = 2
             invention = social_justice
         }
+
         modifier = {
             factor = 2
             invention = atheism
         }
+
         modifier = {
             factor = 2
             invention = secularization
         }
+
         modifier = {
             factor = 2
             invention = rationalism
         }
+
         modifier = {
             factor = 2
             invention = determinism
         }
+
         modifier = {
             factor = 2
             invention = collectivism
@@ -588,29 +645,40 @@ friedrich_engels = {
             factor = 2
             invention = egalitarianism
         }
+
         modifier = {
             factor = 2
             invention = social_justice
         }
+
         modifier = {
             factor = 2
             invention = atheism
         }
+
         modifier = {
             factor = 2
             invention = rationalism
         }
+
         modifier = {
             factor = 2
             invention = secularization
         }
+
         modifier = {
             factor = 2
             invention = determinism
         }
+
         modifier = {
             factor = 2
             invention = collectivism
+        }
+
+        modifier = {
+            factor = 5
+            has_country_flag = nv_equality
         }
         modifier = {
             factor = 1
@@ -640,6 +708,10 @@ eduard_bernstein = {
         modifier = {
             factor = 2
             economic_policy = planned_economy
+        }
+        modifier = {
+            factor = 1
+            has_country_flag = nv_order
         }
     }
     effect = {
@@ -686,6 +758,10 @@ karl_kautsky = {
             invention = friedrich_engels
         }
         modifier = {
+            factor = 1
+            has_country_flag = nv_equality
+        }
+        modifier = {
             factor = 2
             economic_policy = state_capitalism
         }
@@ -725,6 +801,10 @@ friedrich_list = {
     chance = {
         base = 2
         modifier = {
+            factor = 2
+            has_country_flag = nv_order
+        }
+        modifier = {
             factor = 1
             economic_policy = state_capitalism
         }
@@ -744,6 +824,10 @@ wilhelm_roscher = {
         modifier = {
             factor = 2
             economic_policy = state_capitalism
+        }
+        modifier = {
+            factor = 1
+            has_country_flag = nv_order
         }
     }
     effect = {
@@ -779,6 +863,10 @@ karl_knies = {
     news = no
     chance = {
         base = 2
+        modifier = {
+            factor = 2
+            has_country_flag = nv_order
+        }
         modifier = {
             factor = 2
             ruling_party_ideology = conservative
@@ -821,6 +909,10 @@ adolph_wagner = {
             factor = 2
             average_consciousness = 2
         }
+        modifier = {
+            factor = 2
+            has_country_flag = nv_order
+        }
     }
     effect = {
         permanent_prestige = 1
@@ -837,6 +929,10 @@ william_cunningham = {
         modifier = {
             factor = 2
             is_greater_power = yes
+        }
+        modifier = {
+            factor = 2
+            has_country_flag = nv_liberty
         }
     }
     effect = {
@@ -877,6 +973,10 @@ leon_walras = {
             factor = 2
             economic_policy = planned_economy
         }
+        modifier = {
+            factor = 1
+            has_country_flag = nv_equality
+        }
     }
     effect = {
         permanent_prestige = 1
@@ -894,6 +994,10 @@ stanley_jevons = {
             factor = 2
             economic_policy = interventionism
         }
+        modifier = {
+            factor = 1
+            has_country_flag = nv_order
+        }
     }
     effect = {
         permanent_prestige = 1
@@ -910,6 +1014,10 @@ carl_menger = {
         modifier = {
             factor = 3
             economic_policy = laissez_faire
+        }
+        modifier = {
+            factor = 2
+            has_country_flag = nv_liberty
         }
     }
     effect = {
@@ -949,6 +1057,10 @@ alfred_marshall = {
             factor = 3
             economic_policy = laissez_faire
         }
+        modifier = {
+            factor = 2
+            has_country_flag = nv_liberty
+        }
     }
     effect = {
         permanent_prestige = 1
@@ -965,6 +1077,10 @@ augustin_cournot = {
         modifier = {
             factor = 3
             average_consciousness = 3
+        }
+        modifier = {
+            factor = 2
+            has_country_flag = nv_equality
         }
     }
     effect = {
@@ -1024,6 +1140,10 @@ knut_wicksell = {
         modifier = {
             factor = 2
             economic_policy = laissez_faire
+        }
+        modifier = {
+            factor = 3
+            has_country_flag = nv_liberty
         }
     }
     effect = {
@@ -1203,6 +1323,10 @@ polypoly_structure = {
             factor = 2
             ruling_party_ideology = liberal
         }
+        modifier = {
+            factor = 2
+            has_country_flag = nv_liberty
+        }
     }
     effect = {
         factory_input = -0.02
@@ -1222,6 +1346,10 @@ oligopoly_structure = {
     }
     chance = {
         base = 2
+        modifier = {
+            factor = 2
+            has_country_flag = nv_order
+        }
         modifier = {
             factor = 2
             ruling_party_ideology = conservative
@@ -1245,6 +1373,10 @@ monopoly_structure = {
     }
     chance = {
         base = 2
+        modifier = {
+            factor = 2
+            has_country_flag = nv_equality
+        }
         modifier = {
             factor = 2
             economic_policy = state_capitalism
@@ -1295,7 +1427,11 @@ patent = {
     limit = { business_regulations = 1 }
     news = no
     chance = {
-        base = 2    
+        base = 2
+        modifier = {
+            factor = 2
+            has_country_flag = nv_order
+        }
         modifier = {
             factor = 2
             is_greater_power = yes
@@ -1344,6 +1480,10 @@ anti_trust_laws = {
         modifier = {
             factor = 2
             ruling_party_ideology = socialist
+        }
+        modifier = {
+            factor = 2
+            has_country_flag = nv_equality
         }
     }
     effect = {
@@ -1547,6 +1687,7 @@ import_substitution_industrialization = {
         activate_building = synthetic_oil_factory
     }
 }
+
 #guild_based_production
 modern_winemaking = {
     limit = {
@@ -1572,6 +1713,7 @@ modern_winemaking = {
         }
     }
 }
+
 #organized_factories
 work_classification = {
     limit = { organized_factories = 1 }

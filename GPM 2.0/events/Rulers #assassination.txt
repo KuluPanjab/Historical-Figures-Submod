@@ -1,0 +1,20 @@
+country_event = {
+    id = 100050002
+    title = "First Minister Assassinated"
+    desc = "Our first minister has been murdered!"
+    picture = "danishgovernment"
+    trigger = {
+		ai = no
+        NOT = { nationalvalue = pm_unknown }
+		average_militancy = 5
+    }
+
+    mean_time_to_happen = {
+        months = 24
+    }
+
+    option = {
+        name = "A tragedy!"
+        nationalvalue = pm_unknown
+    }
+}

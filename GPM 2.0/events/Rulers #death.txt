@@ -1,0 +1,19 @@
+country_event = {
+    id = 100050001
+    title = "First Minister Dies in Office"
+    desc = "Our hardworking First minister was found dead at his desk this morning."
+    picture = "danishgovernment"
+    trigger = {
+		ai = no
+        NOT = { nationalvalue = pm_unknown }
+    }
+
+    mean_time_to_happen = {
+        months = 1200
+    }
+
+    option = {
+        name = "He will be sorely missed."
+        nationalvalue = pm_unknown
+    }
+}
