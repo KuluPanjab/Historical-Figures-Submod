@@ -3,40 +3,242 @@
 pm_unknown = {
 }
 
-### Political Leaders -- African ###
+### African ###
 
-african_pm_diplomat = {
+african_expert_diplomat = {
+    diplomatic_points_modifier = 0.5
+    badboy = -0.05
 }
 
-african_pm_industrialist = {
+african_successful_industrialist = {
+    factory_owner_cost = -0.25
+    factory_throughput = 0.05
+    farm_RGO_size = -0.05
+    mine_RGO_size = -0.05
 }
 
-african_pm_intellectual = {
+african_ivory_tower_intellectual = {
+    research_points = 1
+    global_pop_consciousness_modifier = 0.01
 }
 
-african_pm_militarist = {
+african_man_of_the_people = {
+    global_pop_militancy_modifier = -0.02
+    global_pop_consciousness_modifier = 0.02
+    ruling_party_support = 1
 }
 
-african_pm_popular_figurehead = {
+african_landed_gentleman = {
+    RGO_throughput = 0.05
+    farm_RGO_size = 0.05
+    mine_RGO_size = 0.05
+    factory_throughput = -0.05
 }
 
-african_pm_landowner = {
+african_military_man = {
+    org_regain = 0.1
+    land_organisation = 0.05
 }
 
-african_pm_union_boss = {
+african_lord_admiral = {
+    org_regain = 0.1
+    naval_organisation = 0.05
 }
 
-african_pm_kleptocrat = {
+african_raving_loon = {
+    global_pop_militancy_modifier = 0.05
+    research_points_modifier = -0.05
+    ruling_party_support = -0.5
 }
 
-african_pm_reformist = {
+african_luddite = {
+    research_points_modifier = -0.05
+    factory_owner_cost = 0.2
+    RGO_throughput = 0.05
 }
 
-african_pm_imperialist = {
+african_great_statesman = {
+    prestige = 0.01
+    diplomatic_points_modifier = 0.25
+    ruling_party_support = 0.5
+    badboy = -0.03
 }
 
-african_pm_isolationist = {
+african_backroom_boy = {
+    RGO_throughput = 0.02
+    research_points_modifier = 0.02
+    leadership = 0.02
 }
 
-african_pm_autocrat = {
+african_great_reformer = {
+    global_pop_militancy_modifier = -0.02
+    global_pop_consciousness_modifier = 0.04
+    ruling_party_support = 0.2
+    issue_change_speed = 0.2
+}
+
+african_gauche_buffoon = {
+    prestige = -0.01
+    diplomatic_points_modifier = -0.5
+    issue_change_speed = 0.1
+}
+
+african_administrative_genius = {
+    mobilisation_size = 0.01
+    supply_consumption = -0.05
+}
+
+african_visionary_thinker = {
+    research_points_modifier = 0.2
+}
+
+african_competent_placeholder = {
+}
+
+african_imperious_autocrat = {
+    prestige = 0.02
+}
+
+african_prince_of_terror = {
+    global_pop_militancy_modifier = -0.1
+    badboy = 0.02
+}
+
+african_efficient_sociopath = {
+    factory_output = 0.05
+    leadership = -0.1
+}
+
+african_pig_headed_isolationist = {
+    global_pop_consciousness_modifier = -0.05
+}
+
+african_ambitious_union_boss = {
+    global_pop_consciousness_modifier = 0.03
+}
+
+african_dour_economist = {
+    factory_owner_cost = -0.1
+    ruling_party_support = -0.2
+    issue_change_speed = -0.1
+}
+
+### Arab ###
+
+arab_expert_diplomat = {
+    diplomatic_points_modifier = 0.5
+    badboy = -0.05
+}
+
+arab_successful_industrialist = {
+    factory_owner_cost = -0.25
+    factory_throughput = 0.05
+    farm_RGO_size = -0.05
+    mine_RGO_size = -0.05
+}
+
+arab_ivory_tower_intellectual = {
+    research_points = 1
+    global_pop_consciousness_modifier = 0.01
+}
+
+arab_man_of_the_people = {
+    global_pop_militancy_modifier = -0.02
+    global_pop_consciousness_modifier = 0.02
+    ruling_party_support = 1
+}
+
+arab_landed_gentleman = {
+    RGO_throughput = 0.05
+    farm_RGO_size = 0.05
+    mine_RGO_size = 0.05
+    factory_throughput = -0.05
+}
+
+arab_military_man = {
+    org_regain = 0.1
+    land_organisation = 0.05
+}
+
+arab_lord_admiral = {
+    org_regain = 0.1
+    naval_organisation = 0.05
+}
+
+arab_raving_loon = {
+    global_pop_militancy_modifier = 0.05
+    research_points_modifier = -0.05
+    ruling_party_support = -0.5
+}
+
+arab_luddite = {
+    research_points_modifier = -0.05
+    factory_owner_cost = 0.2
+    RGO_throughput = 0.05
+}
+
+arab_great_statesman = {
+    prestige = 0.01
+    diplomatic_points_modifier = 0.25
+    ruling_party_support = 0.5
+    badboy = -0.03
+}
+
+arab_backroom_boy = {
+    RGO_throughput = 0.02
+    research_points_modifier = 0.02
+    leadership = 0.02
+}
+
+arab_great_reformer = {
+    global_pop_militancy_modifier = -0.02
+    global_pop_consciousness_modifier = 0.04
+    ruling_party_support = 0.2
+    issue_change_speed = 0.2
+}
+
+arab_gauche_buffoon = {
+    prestige = -0.01
+    diplomatic_points_modifier = -0.5
+    issue_change_speed = 0.1
+}
+
+arab_administrative_genius = {
+    mobilisation_size = 0.01
+    supply_consumption = -0.05
+}
+
+arab_visionary_thinker = {
+    research_points_modifier = 0.2
+}
+
+arab_competent_placeholder = {
+}
+
+arab_imperious_autocrat = {
+    prestige = 0.02
+}
+
+arab_prince_of_terror = {
+    global_pop_militancy_modifier = -0.1
+    badboy = 0.02
+}
+
+arab_efficient_sociopath = {
+    factory_output = 0.05
+    leadership = -0.1
+}
+
+arab_pig_headed_isolationist = {
+    global_pop_consciousness_modifier = -0.05
+}
+
+arab_ambitious_union_boss = {
+    global_pop_consciousness_modifier = 0.03
+}
+
+arab_dour_economist = {
+    factory_owner_cost = -0.1
+    ruling_party_support = -0.2
+    issue_change_speed = -0.1
 }

@@ -1,0 +1,229 @@
+### Arab ###
+country_event = {
+	id = 100041007
+    title = "First Minister Appointed"
+    desc = "A new first minister has been appointed."
+    picture = "danishgovernment"
+    trigger = {
+		ai = no
+		OR = {
+			is_culture_group = turko_semitic
+			is_culture_group = caucasian
+			is_culture_group = arab
+			is_culture_group = nuristani_group
+			is_culture_group = burushaki_group
+			is_culture_group = iranian_turanian
+		}
+		OR = {
+            has_country_flag = socialist_election_win
+            has_country_flag = communist_election_win
+        }
+		NOT = {
+            government = proletarian_dictatorship
+            government = presidential_dictatorship
+            government = fascist_dictatorship
+        }
+	}
+	
+	mean_time_to_happen = {
+		days = 14
+    }
+	
+	immediate = {
+		set_country_flag = minister_found
+    }
+	
+	option = {
+	    name = "I hope they're a good one..."
+	    random_list = {
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = arab_expert_diplomat
+				clr_country_flag = minister_found
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
+			}
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = arab_successful_industrialist
+				clr_country_flag = minister_found
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
+			}
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = arab_ivory_tower_intellectual
+				clr_country_flag = minister_found
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
+			}
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = arab_man_of_the_people
+				clr_country_flag = minister_found
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
+			}
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = arab_landed_gentleman
+				clr_country_flag = minister_found
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
+			}
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = arab_military_man
+				clr_country_flag = minister_found
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
+			}
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = arab_lord_admiral
+				clr_country_flag = minister_found
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
+			}
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = arab_raving_loon
+				clr_country_flag = minister_found
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
+			}
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = arab_luddite
+				clr_country_flag = minister_found
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
+			}
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = arab_great_statesman
+				clr_country_flag = minister_found
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
+			}
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = arab_backroom_boy
+				clr_country_flag = minister_found
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
+			}
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = arab_great_reformer
+				clr_country_flag = minister_found
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
+			}
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = arab_gauche_buffoon
+				clr_country_flag = minister_found
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
+			}
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = arab_administrative_genius
+				clr_country_flag = minister_found
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
+			}
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = arab_visionary_thinker
+				clr_country_flag = minister_found
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
+			}
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = arab_competent_placeholder
+				clr_country_flag = minister_found
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = arab_imperious_autocrat
+				clr_country_flag = minister_found
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
+			}
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = arab_efficient_sociopath
+				clr_country_flag = minister_found
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
+			}
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = arab_pig_headed_isolationist
+				clr_country_flag = minister_found
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
+			}
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = arab_ambitious_union_boss
+				clr_country_flag = minister_found
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
+			}
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = arab_dour_economist
+				clr_country_flag = minister_found
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
+			}
+		}
+	}
+}

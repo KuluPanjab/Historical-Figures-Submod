@@ -33,145 +33,192 @@ country_event = {
 	    name = "I hope they're a good one..."
 	    random_list = {
 			# Audax Validator "." Ignore_NEXT
-			8.3 = {
-				nationalvalue = african_pm_diplomat
+			4.5 = {
+				nationalvalue = african_expert_diplomat
 				clr_country_flag = minister_found
-				clr_country_flag = nv_order
-				clr_country_flag = nv_liberty
-				clr_country_flag = nv_equality
-				clr_country_flag = nv_tradition
-				clr_country_flag = nv_productivity
-				clr_country_flag = nv_autocracy
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
 			}
-			8.3 = {
-				nationalvalue = african_pm_industrialist
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = african_successful_industrialist
 				clr_country_flag = minister_found
-				clr_country_flag = nv_order
-				clr_country_flag = nv_liberty
-				clr_country_flag = nv_equality
-				clr_country_flag = nv_tradition
-				clr_country_flag = nv_productivity
-				clr_country_flag = nv_autocracy
-				set_country_flag = nv_productivity
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
 			}
-			8.3 = {
-				nationalvalue = african_pm_intellectual
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = african_ivory_tower_intellectual
 				clr_country_flag = minister_found
-				clr_country_flag = nv_order
-				clr_country_flag = nv_liberty
-				clr_country_flag = nv_equality
-				clr_country_flag = nv_tradition
-				clr_country_flag = nv_productivity
-				clr_country_flag = nv_autocracy
-				set_country_flag = nv_liberty
-				set_country_flag = nv_equality
-				set_country_flag = nv_productivity
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
 			}
-			8.3 = {
-				nationalvalue = african_pm_militarist
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = african_man_of_the_people
 				clr_country_flag = minister_found
-				clr_country_flag = nv_order
-				clr_country_flag = nv_liberty
-				clr_country_flag = nv_equality
-				clr_country_flag = nv_tradition
-				clr_country_flag = nv_productivity
-				clr_country_flag = nv_autocracy
-				set_country_flag = nv_order
-				set_country_flag = nv_autocracy
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
 			}
-			8.3 = {
-				nationalvalue = african_pm_popular_figurehead
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = african_landed_gentleman
 				clr_country_flag = minister_found
-				clr_country_flag = nv_order
-				clr_country_flag = nv_liberty
-				clr_country_flag = nv_equality
-				clr_country_flag = nv_tradition
-				clr_country_flag = nv_productivity
-				clr_country_flag = nv_autocracy
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
 			}
-			8.3 = {
-				nationalvalue = african_pm_landowner
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = african_military_man
 				clr_country_flag = minister_found
-				clr_country_flag = nv_order
-				clr_country_flag = nv_liberty
-				clr_country_flag = nv_equality
-				clr_country_flag = nv_tradition
-				clr_country_flag = nv_productivity
-				clr_country_flag = nv_autocracy
-				set_country_flag = nv_productivity
-				set_country_flag = nv_order
-				set_country_flag = nv_tradition
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
 			}
-			8.3 = {
-				nationalvalue = african_pm_union_boss
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = african_lord_admiral
 				clr_country_flag = minister_found
-				clr_country_flag = nv_order
-				clr_country_flag = nv_liberty
-				clr_country_flag = nv_equality
-				clr_country_flag = nv_tradition
-				clr_country_flag = nv_productivity
-				clr_country_flag = nv_autocracy
-				set_country_flag = nv_equality
-				set_country_flag = nv_liberty
-				set_country_flag = nv_productivity
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
 			}
-			8.3 = {
-				nationalvalue = african_pm_kleptocrat
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = african_raving_loon
 				clr_country_flag = minister_found
-				clr_country_flag = nv_order
-				clr_country_flag = nv_liberty
-				clr_country_flag = nv_equality
-				clr_country_flag = nv_tradition
-				clr_country_flag = nv_productivity
-				clr_country_flag = nv_autocracy
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
 			}
-			8.3 = {
-				nationalvalue = african_pm_reformist
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = african_luddite
 				clr_country_flag = minister_found
-				clr_country_flag = nv_order
-				clr_country_flag = nv_liberty
-				clr_country_flag = nv_equality
-				clr_country_flag = nv_tradition
-				clr_country_flag = nv_productivity
-				clr_country_flag = nv_autocracy
-				set_country_flag = nv_liberty
-				set_country_flag = nv_equality
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
 			}
-			8.3 = {
-				nationalvalue = african_pm_imperialist
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = african_great_statesman
 				clr_country_flag = minister_found
-				clr_country_flag = nv_order
-				clr_country_flag = nv_liberty
-				clr_country_flag = nv_equality
-				clr_country_flag = nv_tradition
-				clr_country_flag = nv_productivity
-				clr_country_flag = nv_autocracy
-				set_country_flag = nv_autocracy
-				set_country_flag = nv_order
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
 			}
-			8.3 = {
-				nationalvalue = african_pm_isolationist
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = african_backroom_boy
 				clr_country_flag = minister_found
-				clr_country_flag = nv_order
-				clr_country_flag = nv_liberty
-				clr_country_flag = nv_equality
-				clr_country_flag = nv_tradition
-				clr_country_flag = nv_productivity
-				clr_country_flag = nv_autocracy
-				set_country_flag = nv_tradition
-				set_country_flag = nv_productivity
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
 			}
-			8.3 = {
-				nationalvalue = african_pm_autocrat
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = african_great_reformer
 				clr_country_flag = minister_found
-				clr_country_flag = nv_order
-				clr_country_flag = nv_liberty
-				clr_country_flag = nv_equality
-				clr_country_flag = nv_tradition
-				clr_country_flag = nv_productivity
-				clr_country_flag = nv_autocracy
-				set_country_flag = nv_autocracy
-				set_country_flag = nv_order
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
+			}
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = african_gauche_buffoon
+				clr_country_flag = minister_found
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
+			}
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = african_administrative_genius
+				clr_country_flag = minister_found
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
+			}
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = african_visionary_thinker
+				clr_country_flag = minister_found
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
+			}
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = african_competent_placeholder
+				clr_country_flag = minister_found
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = african_imperious_autocrat
+				clr_country_flag = minister_found
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
+			}
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = african_efficient_sociopath
+				clr_country_flag = minister_found
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
+			}
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = african_pig_headed_isolationist
+				clr_country_flag = minister_found
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
+			}
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = african_ambitious_union_boss
+				clr_country_flag = minister_found
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
+			}
+			# Audax Validator "." Ignore_NEXT
+			4.5 = {
+				nationalvalue = african_dour_economist
+				clr_country_flag = minister_found
+				add_country_modifier = {
+					name = pm_mandate
+					duration = 3650 
+				}
 			}
 		}
 	}
