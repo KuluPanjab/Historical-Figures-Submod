@@ -5047,114 +5047,51 @@ gco_survived_modifier = {
 # Historical Figureheads.
 ##################################################################################################
 
-### Prussia/Germany ###
+### UNITED STATES OF AMERICA ###
 
-friedrich_wilhelm_iii = {
-	org_regain = 0.1
-	land_organisation = 0.05
-	# org_regain = 0.05
-	# land_organisation = 0.03
-	icon = 169
+### 1832-1836 ###
+andrew_jackson = {
+	icon = 109 
 }
 
-friedrich_wilhelm_iv = {
-	factory_owner_cost = -0.25
-	factory_throughput = 0.05
-	farm_RGO_size = -0.05
-	mine_RGO_size = -0.05
-	# factory_owner_cost = -0.12
-	# factory_throughput = 0.02
-	# farm_RGO_size = -0.02
-	# mine_RGO_size = -0.02
-	icon = 92
+henry_clay = {
+	icon = 90
 }
 
-prince_wilhelm = {
-	administrative_efficiency_modifier = 0.2
-	# administrative_efficiency_modifier = 0.1
-	icon = 97 
+john_floyd = {
+	icon = 99 
 }
 
-wilhelm_i = {
-	global_pop_militancy_modifier = -0.02
-	global_pop_consciousness_modifier = 0.02
-	# global_pop_militancy_modifier = -0.01
-	# global_pop_consciousness_modifier = 0.01
-	ruling_party_support = 1
-	icon = 97
+### 1836/1840-1844 ###
+
+martin_van_buren = {
+	icon = 63
 }
 
-kaiser_wilhelm_i = {
-	global_pop_militancy_modifier = -0.02
-	global_pop_consciousness_modifier = 0.02
-	# global_pop_militancy_modifier = -0.01
-	# global_pop_consciousness_modifier = 0.01
-	ruling_party_support = 1
-	icon = 94
+william_henry_harrison = {
+	icon = 77
 }
 
-otto_von_bismarck = {
-    prestige = 0.02
-    diplomatic_points_modifier = 0.25
-    influence_modifier = 0.2
-    ruling_party_support = 0.5
-    icon = 84
+john_tyler = { # Harrison vice-president
+	icon = 58 
 }
 
-## Prussia/Germany Socialist-Communist Leaders ##
-
-wilhelm_weitling = {
-	icon = 100  
+john_caldwell_calhoun = {
+	icon = 76
 }
 
-ludwig_feuerbach = {
-	icon = 163  
+james_gillespie_birney = {
+	icon = 61
 }
 
-ferdinand_freiligrat = {
-	icon = 76 
+### 1844-1848 ###
+
+# Henry Clay
+
+james_knox_polk = {
+	icon = 14
 }
 
-karl_marx = {
-	icon = 66
-}
-
-johann_philipp_becke = {
-	icon = 157
-}
-
-karl_grun = {
-	icon = 108
-}
-
-friedrich_engels = {
-	icon = 163
-}
-
-august_bebel = {
-	icon = 70
-}
-
-karl_liebknecht = {
-	icon = 65
-}
-
-friedrich_ebert = {
-	icon = 60
-}
-
-adolf_von_harnack = {
-	icon = 122
-}
-
-eduard_bernstein = {
-	icon = 106
-}
-
-philipp_scheidemann = {
-	icon = 122
-}
-
-wilhelm_pieck = {
-	icon = 104
+joseph_smith_jr = {
+	icon = 117 
 }

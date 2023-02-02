@@ -1576,7 +1576,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "modifier"
-			position = { x=0 y =0 }
+			position = { x=0 y =-4 }
 			quadTextureSprite ="GFX_modifier_icons"
 			buttonText = " "
 			buttonFont = "vic_18_black"

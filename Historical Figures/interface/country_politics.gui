@@ -90,7 +90,7 @@ guiTypes = {
 		iconType = {
 			name = "national_value"
 			spriteType = "GFX_politics_nationalvalue"
-			position = { x = 32 y = 98 }
+			position = { x = 31 y = 98 }
 			Orientation = "UPPER_LEFT"
 		}
 
