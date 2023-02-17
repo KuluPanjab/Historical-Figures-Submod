@@ -723,19 +723,17 @@ country_event = {
 }
 
 country_event = {
-    id = 1040120
+    id = 10040120
     title = "First Minister Assassinated"
     desc = "Our first minister has been murdered!"
     picture = "danishgovernment"
     trigger = {
 		ai = no
         OR = {
-			is_culture_group = turko_semitic
-			is_culture_group = caucasian
-			is_culture_group = asian
-			is_culture_group = nuristani_group
-			is_culture_group = burushaki_group
-			is_culture_group = iranian_turanian
+			is_culture_group = central_asian
+			is_culture_group = southeast_asian
+			is_culture_group = east_asian
+			is_culture_group = far_east_asian
 		}
 		OR = {
             has_country_modifier = asian_expert_diplomat
@@ -812,19 +810,17 @@ country_event = {
 
 
 country_event = {
-    id = 1050001
+    id = 10050001
     title = "Great Leader Emerges"
     desc = "Our new Great Leader has taken office."
     picture = "danishgovernment"
     trigger = {
 		ai = no
 		OR = {
-			is_culture_group = turko_semitic
-			is_culture_group = caucasian
-			is_culture_group = asian
-			is_culture_group = nuristani_group
-			is_culture_group = burushaki_group
-			is_culture_group = iranian_turanian
+			is_culture_group = central_asian
+			is_culture_group = southeast_asian
+			is_culture_group = east_asian
+			is_culture_group = far_east_asian
 		}
 	   NOT = {
             has_country_modifier = asian_expert_diplomat
@@ -1535,7 +1531,7 @@ country_event = {
 }
 
 country_event = {
-    id = 1050120
+    id = 10050120
     title = "Great Leader Assassinated"
     desc = "Our Great Leader has been murdered!"
     news = yes
@@ -1546,13 +1542,11 @@ country_event = {
     picture = "assassination"
     trigger = {
 		ai = no
-        OR = {
-			is_culture_group = turko_semitic
-			is_culture_group = caucasian
-			is_culture_group = asian
-			is_culture_group = nuristani_group
-			is_culture_group = burushaki_group
-			is_culture_group = iranian_turanian
+       OR = {
+			is_culture_group = central_asian
+			is_culture_group = southeast_asian
+			is_culture_group = east_asian
+			is_culture_group = far_east_asian
 		}
 		OR = {
             has_country_modifier = asian_expert_diplomat
@@ -1630,19 +1624,17 @@ country_event = {
 
 
 country_event = {
-    id = 1060001
+    id = 10060001
     title = "First Minister Appointed"
     desc = "A new first minister has been appointed."
     picture = "danishgovernment"
     trigger = {
 		ai = no
        OR = {
-			is_culture_group = turko_semitic
-			is_culture_group = caucasian
-			is_culture_group = asian
-			is_culture_group = nuristani_group
-			is_culture_group = burushaki_group
-			is_culture_group = iranian_turanian
+			is_culture_group = central_asian
+			is_culture_group = southeast_asian
+			is_culture_group = east_asian
+			is_culture_group = far_east_asian
 		}
 		NOT = {
             has_country_modifier = asian_expert_diplomat
@@ -2368,19 +2360,17 @@ country_event = {
 
 
 country_event = {
-    id = 1070001
+    id = 10070001
     title = "First Minister Appointed"
     desc = "A new first minister has been appointed."
     picture = "danishgovernment"
     trigger = {
 		ai = no
         OR = {
-			is_culture_group = turko_semitic
-			is_culture_group = caucasian
-			is_culture_group = asian
-			is_culture_group = nuristani_group
-			is_culture_group = burushaki_group
-			is_culture_group = iranian_turanian
+			is_culture_group = central_asian
+			is_culture_group = southeast_asian
+			is_culture_group = east_asian
+			is_culture_group = far_east_asian
 		}
 		NOT = {
             has_country_modifier = asian_expert_diplomat
@@ -3104,19 +3094,17 @@ country_event = {
 
 
 country_event = {
-    id = 1080001
+    id = 10080001
     title = "First Minister Appointed"
     desc = "A new first minister has been appointed."
     picture = "danishgovernment"
     trigger = {
 		ai = no
         OR = {
-			is_culture_group = turko_semitic
-			is_culture_group = caucasian
-			is_culture_group = asian
-			is_culture_group = nuristani_group
-			is_culture_group = burushaki_group
-			is_culture_group = iranian_turanian
+			is_culture_group = central_asian
+			is_culture_group = southeast_asian
+			is_culture_group = east_asian
+			is_culture_group = far_east_asian
 		}
 		NOT = {
             has_country_modifier = asian_expert_diplomat
@@ -3836,19 +3824,17 @@ country_event = {
 }
 
 country_event = {
-    id = 1080123
+    id = 10080123
     title = "First Minister Dies in Office"
     desc = "Our hardworking First minister was found dead at his desk this morning."
     picture = "danishgovernment"
     trigger = {
 		ai = no
         OR = {
-			is_culture_group = turko_semitic
-			is_culture_group = caucasian
-			is_culture_group = asian
-			is_culture_group = nuristani_group
-			is_culture_group = burushaki_group
-			is_culture_group = iranian_turanian
+			is_culture_group = central_asian
+			is_culture_group = southeast_asian
+			is_culture_group = east_asian
+			is_culture_group = far_east_asian
 		}
 		NOT = {
             government = proletarian_dictatorship
@@ -3914,19 +3900,17 @@ country_event = {
 }
 
 country_event = {
-    id = 1080124
+    id = 10080124
     title = "First Minister Committed"
     desc = "After he declared Thursdays to be Compulsory Pie-wearing day, our First minister has been 'retired'..."
     picture = "danishgovernment"
     trigger = {
 		ai = no
        OR = {
-			is_culture_group = turko_semitic
-			is_culture_group = caucasian
-			is_culture_group = asian
-			is_culture_group = nuristani_group
-			is_culture_group = burushaki_group
-			is_culture_group = iranian_turanian
+			is_culture_group = central_asian
+			is_culture_group = southeast_asian
+			is_culture_group = east_asian
+			is_culture_group = far_east_asian
 		}
 		NOT = {
             government = proletarian_dictatorship
@@ -3948,19 +3932,17 @@ country_event = {
 }
 
 country_event = {
-    id = 1080125
+    id = 10080125
     title = "Great Leader Dies in Office"
     desc = "Our hardworking Great Leader was found dead at his chateaux this morning, by the six young ladies who were in his care..."
     picture = "danishgovernment"
     trigger = {
 		ai = no
         OR = {
-			is_culture_group = turko_semitic
-			is_culture_group = caucasian
-			is_culture_group = asian
-			is_culture_group = nuristani_group
-			is_culture_group = burushaki_group
-			is_culture_group = iranian_turanian
+			is_culture_group = central_asian
+			is_culture_group = southeast_asian
+			is_culture_group = east_asian
+			is_culture_group = far_east_asian
 		}
 		OR = {
             government = proletarian_dictatorship
