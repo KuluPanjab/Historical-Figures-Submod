@@ -6,6 +6,7 @@ country_event = {
     picture = "danishgovernment"
     trigger = {
 		ai = no
+		NOT = { has_country_modifier = pm_mandate }
 		OR = {
 			is_culture_group = turko_semitic
 			is_culture_group = caucasian
@@ -14,7 +15,11 @@ country_event = {
 			is_culture_group = burushaki_group
 			is_culture_group = iranian_turanian
 		}
-		NOT = { has_country_modifier = pm_mandate }
+		NOT = {
+			government = proletarian_dictatorship
+            government = presidential_dictatorship
+            government = fascist_dictatorship
+        }
 	}
 	
 	mean_time_to_happen = {

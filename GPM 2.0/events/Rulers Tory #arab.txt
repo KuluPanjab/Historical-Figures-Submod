@@ -1,6 +1,6 @@
 ### Arab ###
 country_event = {
-	id = 100041008
+	id = 100041007
     title = "First Minister Appointed"
     desc = "A new first minister has been appointed."
     picture = "danishgovernment"

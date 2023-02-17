@@ -1,11 +1,5 @@
-##################################################################################################
-# political leaders of the great personalities mod.
-##################################################################################################
-
-## UNITED STATES OF AMERICA ##
-
-# Andrew Jackson
-country_event = { # Sets Andrew Jackson as President in 1830
+# Sets Andrew Jackson as President in 1830
+country_event = {
 	
 	id = 1010101
 	
@@ -41,12 +35,8 @@ country_event = { # Sets Andrew Jackson as President in 1830
 	} 
 }
 
-##################################################################################################
-# 1832 ELECTION
-##################################################################################################
-
-# 1832 Historical Election
-country_event = { # Elections held on historic date
+# 1832 Election hold on Historical Date
+country_event = {
 	
 	id = 1010102
 	
@@ -81,27 +71,22 @@ country_event = { # Elections held on historic date
 	} 
 }
 
-# 1832 Conservative Victory
-country_event = { # Sets Andrew Jackson as President in 1832
+# 1830-1836 Election Conservative Victory
+country_event = {
 	
 	id = 1010103
 	
-	title = "Dynamic Leaders: Setting Andrew Jackson as President" 
-	desc = "Dynamic Leaders: Setting Andrew Jackson as President"
-	picture = "danishgovernment"
-	
-	fire_only_once = yes 
+	title = "Dynamic Leaders: Setting Andrew Jackson as president" 
+	desc = "Dynamic Leaders: Setting Andrew Jackson as president"
+	picture = "danishgovernment" 
 	
 	trigger = { 
 		ai = yes
 		tag = CLN
-		AND = {
-			year = 1833
-			month = 3
-		}
-		NOT = { 1834 }
+		year = 1830
+		NOT = { year = 1836 }
 		USA = {
-			ruling_party_ideology = conservative
+			has_country_flag = tory_election_win
 			OR = {
 				government = democracy
 				has_country_flag = Government_Democracy
@@ -109,11 +94,13 @@ country_event = { # Sets Andrew Jackson as President in 1832
 		}
 	}
 	
-	mean_time_to_happen = { days = 4 }
+	mean_time_to_happen = { days = -1 }
 	
 	option = { 
 		name = "Setting..."
 		USA = {
+			remove_country_modifier = henry_clay
+			remove_country_modifier = john_floyd
 			add_country_modifier = { 
 				name = andrew_jackson
 				duration = -1
@@ -122,27 +109,22 @@ country_event = { # Sets Andrew Jackson as President in 1832
 	} 
 }
 
-# 1832 Liberal Victory
-country_event = { # Sets Henry Clay as President in 1832
+# 1830-1836 Election Liberal Victory
+country_event = {
 	
 	id = 1010104
 	
-	title = "Dynamic Leaders: Setting Henry Clay as President" 
-	desc = "Dynamic Leaders: Setting Henry Clay as President"
+	title = "Dynamic Leaders: Setting Henry Clay as president" 
+	desc = "Dynamic Leaders: Setting Henry Clay as president"
 	picture = "danishgovernment"
-	
-	fire_only_once = yes 
 	
 	trigger = { 
 		ai = yes
 		tag = CLN
-		AND = {
-			year = 1833
-			month = 3
-		}
-		NOT = { 1834 }
+		year = 1830
+		NOT = { year = 1836 }
 		USA = {
-			ruling_party_ideology = liberal
+			has_country_flag = liberal_election_win
 			OR = {
 				government = democracy
 				has_country_flag = Government_Democracy
@@ -150,12 +132,13 @@ country_event = { # Sets Henry Clay as President in 1832
 		}
 	}
 	
-	mean_time_to_happen = { days = 4 }
+	mean_time_to_happen = { days = -1 }
 	
 	option = { 
 		name = "Setting..."
 		USA = {
 			remove_country_modifier = andrew_jackson
+			remove_country_modifier = john_floyd
 			add_country_modifier = { 
 				name = henry_clay
 				duration = -1
@@ -164,27 +147,22 @@ country_event = { # Sets Henry Clay as President in 1832
 	} 
 }
 
-# 1832 Reactionary Victory
-country_event = { # Sets John Floyd as President in 1832
+# 1830-1836 Election Reactionary Victory
+country_event = {
 	
 	id = 1010105
 	
-	title = "Dynamic Leaders: Setting John Floyd as President" 
-	desc = "Dynamic Leaders: Setting John Floyd as President"
+	title = "Dynamic Leaders: Setting John Floyd as president" 
+	desc = "Dynamic Leaders: Setting John Floyd as president"
 	picture = "danishgovernment"
-	
-	fire_only_once = yes 
 	
 	trigger = { 
 		ai = yes
 		tag = CLN
-		AND = {
-			year = 1833
-			month = 3
-		}
-		NOT = { 1834 }
+		year = 1830
+		NOT = { year = 1836 }
 		USA = {
-			ruling_party_ideology = reactionary
+			has_country_flag = reactionary_election_win
 			OR = {
 				government = democracy
 				has_country_flag = Government_Democracy
@@ -192,12 +170,13 @@ country_event = { # Sets John Floyd as President in 1832
 		}
 	}
 	
-	mean_time_to_happen = { days = 4 }
+	mean_time_to_happen = { days = -1 }
 	
 	option = { 
 		name = "Setting..."
 		USA = {
 			remove_country_modifier = andrew_jackson
+			remove_country_modifier = henry_clay
 			add_country_modifier = { 
 				name = john_floyd
 				duration = -1
@@ -206,12 +185,8 @@ country_event = { # Sets John Floyd as President in 1832
 	} 
 }
 
-##################################################################################################
-# 1836 ELECTION
-##################################################################################################
-
-# 1836 Historical Election
-country_event = { # Elections held on historic date
+# 1836 Election hold on Historical Date
+country_event = {
 	
 	id = 1010106
 	
@@ -246,27 +221,22 @@ country_event = { # Elections held on historic date
 	} 
 }
 
-# 1836 Conservative Victory
-country_event = { # Sets Martin Van Buren as President in 1836
+# 1836-1840 Election Conservative Victory
+country_event = {
 	
 	id = 1010107
 	
-	title = "Dynamic Leaders: Setting Martin Van Buren as President" 
-	desc = "Dynamic Leaders: Setting Martin Van Buren as President"
-	picture = "danishgovernment"
-	
-	fire_only_once = yes 
+	title = "Dynamic Leaders: Setting Martin Van Buren as president" 
+	desc = "Dynamic Leaders: Setting Martin Van Buren as president"
+	picture = "danishgovernment" 
 	
 	trigger = { 
 		ai = yes
 		tag = CLN
-		AND = {
-			year = 1837
-			month = 3
-		}
-		NOT = { 1838 }
+		year = 1836
+		NOT = { year = 1840 }
 		USA = {
-			ruling_party_ideology = conservative
+			has_country_flag = tory_election_win
 			OR = {
 				government = democracy
 				has_country_flag = Government_Democracy
@@ -274,14 +244,16 @@ country_event = { # Sets Martin Van Buren as President in 1836
 		}
 	}
 	
-	mean_time_to_happen = { days = 4 }
+	mean_time_to_happen = { days = -1 }
 	
 	option = { 
 		name = "Setting..."
 		USA = {
-			remove_country_modifier = andrew_jackson
 			remove_country_modifier = henry_clay
 			remove_country_modifier = john_floyd
+			remove_country_modifier = andrew_jackson
+			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = john_caldwell_calhoun
 			add_country_modifier = { 
 				name = martin_van_buren
 				duration = -1
@@ -290,27 +262,22 @@ country_event = { # Sets Martin Van Buren as President in 1836
 	} 
 }
 
-# 1836 Liberal Victory
-country_event = { # Sets William Henry Harrison as President in 1836
+# 1836-1844 Election Liberal Victory
+country_event = {
 	
 	id = 1010108
 	
-	title = "Dynamic Leaders: Setting William Henry Harrison as President" 
-	desc = "Dynamic Leaders: Setting William Henry Harrison as President"
+	title = "Dynamic Leaders: Setting William Henry Harrison as president" 
+	desc = "Dynamic Leaders: Setting William Henry Harrison as president"
 	picture = "danishgovernment"
-	
-	fire_only_once = yes 
 	
 	trigger = { 
 		ai = yes
 		tag = CLN
-		AND = {
-			year = 1837
-			month = 3
-		}
-		NOT = { 1838 }
+		year = 1836
+		NOT = { year = 1840 }
 		USA = {
-			ruling_party_ideology = liberal
+			has_country_flag = liberal_election_win
 			OR = {
 				government = democracy
 				has_country_flag = Government_Democracy
@@ -318,14 +285,16 @@ country_event = { # Sets William Henry Harrison as President in 1836
 		}
 	}
 	
-	mean_time_to_happen = { days = 4 }
+	mean_time_to_happen = { days = -1 }
 	
 	option = { 
 		name = "Setting..."
 		USA = {
-			remove_country_modifier = andrew_jackson
 			remove_country_modifier = henry_clay
 			remove_country_modifier = john_floyd
+			remove_country_modifier = andrew_jackson
+			remove_country_modifier = martin_van_buren
+			remove_country_modifier = john_caldwell_calhoun
 			add_country_modifier = { 
 				name = william_henry_harrison
 				duration = -1
@@ -334,27 +303,22 @@ country_event = { # Sets William Henry Harrison as President in 1836
 	} 
 }
 
-# 1836 Reactionary Victory
-country_event = { # Sets John Caldwell Calhoun as President in 1836
+# 1836-1840 Election Reactionary Victory
+country_event = {
 	
 	id = 1010109
 	
-	title = "Dynamic Leaders: Setting John Caldwell Calhoun as President" 
-	desc = "Dynamic Leaders: Setting John Caldwell Calhoun as President"
-	picture = "danishgovernment"
-	
-	fire_only_once = yes 
+	title = "Dynamic Leaders: Setting John Caldwell Calhoun as president" 
+	desc = "Dynamic Leaders: Setting John Caldwell Calhoun as president"
+	picture = "danishgovernment" 
 	
 	trigger = { 
 		ai = yes
 		tag = CLN
-		AND = {
-			year = 1837
-			month = 3
-		}
-		NOT = { 1838 }
+		year = 1836
+		NOT = { year = 1840 }
 		USA = {
-			ruling_party_ideology = reactionary
+			has_country_flag = reactionary_election_win
 			OR = {
 				government = democracy
 				has_country_flag = Government_Democracy
@@ -362,14 +326,16 @@ country_event = { # Sets John Caldwell Calhoun as President in 1836
 		}
 	}
 	
-	mean_time_to_happen = { days = 4 }
+	mean_time_to_happen = { days = -1 }
 	
 	option = { 
 		name = "Setting..."
 		USA = {
-			remove_country_modifier = andrew_jackson
 			remove_country_modifier = henry_clay
 			remove_country_modifier = john_floyd
+			remove_country_modifier = andrew_jackson
+			remove_country_modifier = martin_van_buren
+			remove_country_modifier = william_henry_harrison
 			add_country_modifier = { 
 				name = john_caldwell_calhoun
 				duration = -1
@@ -378,12 +344,8 @@ country_event = { # Sets John Caldwell Calhoun as President in 1836
 	} 
 }
 
-##################################################################################################
-# 1840 ELECTION
-##################################################################################################
-
-# 1840 Historical Election
-country_event = { # Elections held on historic date
+# 1840 Election hold on Historical Date
+country_event = {
 	
 	id = 1010110
 	
@@ -418,27 +380,22 @@ country_event = { # Elections held on historic date
 	} 
 }
 
-# 1840 Conservative Victory
-country_event = { # Sets Martin Van Buren as President in 1840
+# 1840-1844 Election Conservative Victory
+country_event = {
 	
 	id = 1010111
 	
-	title = "Dynamic Leaders: Setting Martin Van Buren as President" 
-	desc = "Dynamic Leaders: Setting Martin Van Buren as President"
-	picture = "danishgovernment"
-	
-	fire_only_once = yes 
+	title = "Dynamic Leaders: Setting Martin Van Buren as president" 
+	desc = "Dynamic Leaders: Setting Martin Van Buren as president"
+	picture = "danishgovernment" 
 	
 	trigger = { 
 		ai = yes
 		tag = CLN
-		AND = {
-			year = 1841
-			month = 3
-		}
-		NOT = { 1842 }
+		year = 1840
+		NOT = { year = 1844 }
 		USA = {
-			ruling_party_ideology = conservative
+			has_country_flag = tory_election_win
 			OR = {
 				government = democracy
 				has_country_flag = Government_Democracy
@@ -446,14 +403,15 @@ country_event = { # Sets Martin Van Buren as President in 1840
 		}
 	}
 	
-	mean_time_to_happen = { days = 4 }
+	mean_time_to_happen = { days = -1 }
 	
 	option = { 
 		name = "Setting..."
 		USA = {
-			remove_country_modifier = martin_van_buren
 			remove_country_modifier = william_henry_harrison
 			remove_country_modifier = john_caldwell_calhoun
+			remove_country_modifier = john_tyler
+			remove_country_modifier = james_gillespie_birney
 			add_country_modifier = { 
 				name = martin_van_buren
 				duration = -1
@@ -462,27 +420,22 @@ country_event = { # Sets Martin Van Buren as President in 1840
 	} 
 }
 
-# 1840 Liberal Victory
-country_event = { # Sets William Henry Harrison as President in 1840
+# 1840-1844 Election Liberal Victory
+country_event = {
 	
 	id = 1010112
 	
-	title = "Dynamic Leaders: Setting William Henry Harrison as President" 
-	desc = "Dynamic Leaders: Setting William Henry Harrison as President"
+	title = "Dynamic Leaders: Setting William Henry Harrison as president" 
+	desc = "Dynamic Leaders: Setting William Henry Harrison as president"
 	picture = "danishgovernment"
-	
-	fire_only_once = yes 
 	
 	trigger = { 
 		ai = yes
 		tag = CLN
-		AND = {
-			year = 1841
-			month = 3
-		}
-		NOT = { 1842 }
+		year = 1840
+		NOT = { year = 1841 }
 		USA = {
-			ruling_party_ideology = liberal
+			has_country_flag = liberal_election_win
 			OR = {
 				government = democracy
 				has_country_flag = Government_Democracy
@@ -490,14 +443,15 @@ country_event = { # Sets William Henry Harrison as President in 1840
 		}
 	}
 	
-	mean_time_to_happen = { days = 4 }
+	mean_time_to_happen = { days = -1 }
 	
 	option = { 
 		name = "Setting..."
 		USA = {
 			remove_country_modifier = martin_van_buren
-			remove_country_modifier = william_henry_harrison
 			remove_country_modifier = john_caldwell_calhoun
+			remove_country_modifier = john_tyler
+			remove_country_modifier = james_gillespie_birney
 			add_country_modifier = { 
 				name = william_henry_harrison
 				duration = -1
@@ -506,27 +460,22 @@ country_event = { # Sets William Henry Harrison as President in 1840
 	} 
 }
 
-# 1840 Reactionary Victory
-country_event = { # Sets John Caldwell Calhoun as President in 1840
+# 1840-1844 Election Reactionary Victory
+country_event = {
 	
 	id = 1010113
 	
-	title = "Dynamic Leaders: Setting John Caldwell Calhoun as President" 
-	desc = "Dynamic Leaders: Setting John Caldwell Calhoun as President"
-	picture = "danishgovernment"
-	
-	fire_only_once = yes 
+	title = "Dynamic Leaders: Setting John Caldwell Calhoun as president" 
+	desc = "Dynamic Leaders: Setting John Caldwell Calhoun as president"
+	picture = "danishgovernment" 
 	
 	trigger = { 
 		ai = yes
 		tag = CLN
-		AND = {
-			year = 1841
-			month = 3
-		}
-		NOT = { 1842 }
+		year = 1840
+		NOT = { year = 1844 }
 		USA = {
-			ruling_party_ideology = reactionary
+			has_country_flag = reactionary_election_win
 			OR = {
 				government = democracy
 				has_country_flag = Government_Democracy
@@ -534,14 +483,15 @@ country_event = { # Sets John Caldwell Calhoun as President in 1840
 		}
 	}
 	
-	mean_time_to_happen = { days = 4 }
+	mean_time_to_happen = { days = -1 }
 	
 	option = { 
 		name = "Setting..."
 		USA = {
 			remove_country_modifier = martin_van_buren
 			remove_country_modifier = william_henry_harrison
-			remove_country_modifier = john_caldwell_calhoun
+			remove_country_modifier = john_tyler
+			remove_country_modifier = james_gillespie_birney
 			add_country_modifier = { 
 				name = john_caldwell_calhoun
 				duration = -1
@@ -550,27 +500,22 @@ country_event = { # Sets John Caldwell Calhoun as President in 1840
 	} 
 }
 
-# 1840 Radical Victory
-country_event = { # Sets James Gillespie Birney as President in 1840
+# 1840-1844 Election Anarcho-Liberal Victory
+country_event = {
 	
 	id = 1010114
 	
-	title = "Dynamic Leaders: Setting James Gillespie Birney as President" 
-	desc = "Dynamic Leaders: Setting James Gillespie Birney as President"
-	picture = "danishgovernment"
-	
-	fire_only_once = yes 
+	title = "Dynamic Leaders: Setting James Gillespie Birney as president" 
+	desc = "Dynamic Leaders: Setting James Gillespie Birney as president"
+	picture = "danishgovernment" 
 	
 	trigger = { 
 		ai = yes
 		tag = CLN
-		AND = {
-			year = 1841
-			month = 3
-		}
-		NOT = { 1842 }
+		year = 1840
+		NOT = { year = 1848 }
 		USA = {
-			ruling_party_ideology = radical
+			has_country_flag = anarcho_liberal_win
 			OR = {
 				government = democracy
 				has_country_flag = Government_Democracy
@@ -578,14 +523,19 @@ country_event = { # Sets James Gillespie Birney as President in 1840
 		}
 	}
 	
-	mean_time_to_happen = { days = 4 }
+	mean_time_to_happen = { days = -1 }
 	
+	immediate = {
+        set_country_flag = liberty_party_support
+    }
+
 	option = { 
 		name = "Setting..."
 		USA = {
 			remove_country_modifier = martin_van_buren
 			remove_country_modifier = william_henry_harrison
 			remove_country_modifier = john_caldwell_calhoun
+			remove_country_modifier = john_tyler
 			add_country_modifier = { 
 				name = james_gillespie_birney
 				duration = -1
@@ -594,51 +544,10 @@ country_event = { # Sets James Gillespie Birney as President in 1840
 	} 
 }
 
-# William Henry Harrison passes away
+# 1844 Election hold on Historical Date
 country_event = {
+	
 	id = 1010115
-	title = "The Death of William Henry Harrison" 
-	desc = "EVTDESC1010115"
-	picture = "harrison_death"
-	
-	fire_only_once = yes 
-	
-	trigger = { 
-		tag = USA
-		AND = {
-			year = 1841
-			month = 4
-		}
-		NOT = { 1842 }
-		has_country_modifier = william_henry_harrison
-		OR = {
-			government = democracy
-			has_country_flag = Government_Democracy
-		}
-	}
-	
-	mean_time_to_happen = { days = 4 }
-	
-	option = { 
-		name = "My condolences."
-		USA = {
-			remove_country_modifier = william_henry_harrison
-			add_country_modifier = { 
-				name = john_tyler
-				duration = -1
-			}
-		}
-	} 
-}
-
-##################################################################################################
-# 1844 ELECTION
-##################################################################################################
-
-# 1844 Historical Election
-country_event = { # Elections held on historic date
-	
-	id = 1010116
 	
 	title = "Dynamic Leaders: Holding the 1844 USA election" 
 	desc = "Dynamic Leaders: Holding the 1844 USA election"
@@ -671,27 +580,22 @@ country_event = { # Elections held on historic date
 	} 
 }
 
-# 1844 Conservative Victory
-country_event = { # Sets James Knox Polk as President in 1844
+# 1844-1848 Election Conservative Victory
+country_event = {
 	
-	id = 1010117
+	id = 1010116
 	
-	title = "Dynamic Leaders: Setting James Knox Polk as President" 
-	desc = "Dynamic Leaders: Setting James Knox Polk as President"
-	picture = "danishgovernment"
-	
-	fire_only_once = yes 
+	title = "Dynamic Leaders: Setting James Knox Polk as president" 
+	desc = "Dynamic Leaders: Setting James Knox Polk as president"
+	picture = "danishgovernment" 
 	
 	trigger = { 
 		ai = yes
 		tag = CLN
-		AND = {
-			year = 1845
-			month = 3
-		}
-		NOT = { 1846 }
+		year = 1844
+		NOT = { year = 1848 }
 		USA = {
-			ruling_party_ideology = conservative
+			has_country_flag = tory_election_win
 			OR = {
 				government = democracy
 				has_country_flag = Government_Democracy
@@ -699,15 +603,17 @@ country_event = { # Sets James Knox Polk as President in 1844
 		}
 	}
 	
-	mean_time_to_happen = { days = 4 }
+	mean_time_to_happen = { days = -1 }
 	
 	option = { 
 		name = "Setting..."
 		USA = {
 			remove_country_modifier = martin_van_buren
-			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = john_tyler
 			remove_country_modifier = john_caldwell_calhoun
 			remove_country_modifier = james_gillespie_birney
+			remove_country_modifier = henry_clay
+			remove_country_modifier = joseph_smith_jr
 			add_country_modifier = { 
 				name = james_knox_polk
 				duration = -1
@@ -716,27 +622,22 @@ country_event = { # Sets James Knox Polk as President in 1844
 	} 
 }
 
-# 1832 Liberal Victory
-country_event = { # Sets Henry Clay as President in 1844
+# 1841-1848 Election Liberal Victory
+country_event = {
 	
-	id = 1010118
+	id = 1010117
 	
-	title = "Dynamic Leaders: Setting Henry Clay as President" 
-	desc = "Dynamic Leaders: Setting Henry Clay as President"
+	title = "Dynamic Leaders: Setting Henry Clay as president" 
+	desc = "Dynamic Leaders: Setting Henry Clay Harrison as president"
 	picture = "danishgovernment"
-	
-	fire_only_once = yes 
 	
 	trigger = { 
 		ai = yes
 		tag = CLN
-		AND = {
-			year = 1845
-			month = 3
-		}
-		NOT = { 1846 }
+		year = 1841
+		NOT = { year = 1848 }
 		USA = {
-			ruling_party_ideology = liberal
+			has_country_flag = liberal_election_win
 			OR = {
 				government = democracy
 				has_country_flag = Government_Democracy
@@ -744,15 +645,17 @@ country_event = { # Sets Henry Clay as President in 1844
 		}
 	}
 	
-	mean_time_to_happen = { days = 4 }
+	mean_time_to_happen = { days = -1 }
 	
 	option = { 
 		name = "Setting..."
 		USA = {
 			remove_country_modifier = martin_van_buren
-			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = john_tyler
 			remove_country_modifier = john_caldwell_calhoun
 			remove_country_modifier = james_gillespie_birney
+			remove_country_modifier = james_knox_polk
+			remove_country_modifier = joseph_smith_jr
 			add_country_modifier = { 
 				name = henry_clay
 				duration = -1
@@ -761,27 +664,22 @@ country_event = { # Sets Henry Clay as President in 1844
 	} 
 }
 
-# 1844 Reactionary Victory
-country_event = { # Sets Joseph Smith as President in 1844
+# 1844-1848 Election Reactionary Victory
+country_event = {
 	
-	id = 1010119
+	id = 1010118
 	
-	title = "Dynamic Leaders: Setting Joseph Smith as President" 
-	desc = "Dynamic Leaders: Setting Joseph Smith as President"
-	picture = "danishgovernment"
-	
-	fire_only_once = yes 
+	title = "Dynamic Leaders: Setting Joseph Smith Jr. as president" 
+	desc = "Dynamic Leaders: Setting Joseph Smith Jr. as president"
+	picture = "danishgovernment" 
 	
 	trigger = { 
 		ai = yes
 		tag = CLN
-		AND = {
-			year = 1845
-			month = 3
-		}
-		NOT = { 1846 }
+		year = 1840
+		NOT = { year = 1841 }
 		USA = {
-			ruling_party_ideology = reactionary
+			has_country_flag = reactionary_election_win
 			OR = {
 				government = democracy
 				has_country_flag = Government_Democracy
@@ -789,62 +687,19 @@ country_event = { # Sets Joseph Smith as President in 1844
 		}
 	}
 	
-	mean_time_to_happen = { days = 4 }
+	mean_time_to_happen = { days = -1 }
 	
 	option = { 
 		name = "Setting..."
 		USA = {
 			remove_country_modifier = martin_van_buren
-			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = john_tyler
 			remove_country_modifier = john_caldwell_calhoun
 			remove_country_modifier = james_gillespie_birney
+			remove_country_modifier = james_knox_polk
+			remove_country_modifier = henry_clay
 			add_country_modifier = { 
 				name = joseph_smith_jr
-				duration = -1
-			}
-		}
-	} 
-}
-
-# 1844 Radical Victory
-country_event = { # Sets James Gillespie Birney as President in 1844
-	
-	id = 1010114
-	
-	title = "Dynamic Leaders: Setting James Gillespie Birney as President" 
-	desc = "Dynamic Leaders: Setting James Gillespie Birney as President"
-	picture = "danishgovernment"
-	
-	fire_only_once = yes 
-	
-	trigger = { 
-		ai = yes
-		tag = CLN
-		AND = {
-			year = 1845
-			month = 3
-		}
-		NOT = { 1846 }
-		USA = {
-			ruling_party_ideology = radical
-			OR = {
-				government = democracy
-				has_country_flag = Government_Democracy
-			}
-		}
-	}
-	
-	mean_time_to_happen = { days = 4 }
-	
-	option = { 
-		name = "Setting..."
-		USA = {
-			remove_country_modifier = martin_van_buren
-			remove_country_modifier = william_henry_harrison
-			remove_country_modifier = john_caldwell_calhoun
-			remove_country_modifier = james_gillespie_birney
-			add_country_modifier = { 
-				name = james_gillespie_birney
 				duration = -1
 			}
 		}

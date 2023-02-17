@@ -6,6 +6,7 @@ country_event = {
     picture = "danishgovernment"
     trigger = {
 		ai = no
+		NOT = { has_country_modifier = pm_mandate }
 		OR = {
 			is_culture_group = west_african
 			is_culture_group = central_african
@@ -13,7 +14,11 @@ country_event = {
 			is_culture_group = southern_african
 			is_culture_group = african_diaspora_cultures
 		}
-		NOT = { has_country_modifier = pm_mandate }
+		NOT = {
+			government = proletarian_dictatorship
+            government = presidential_dictatorship
+            government = fascist_dictatorship
+        }
 	}
 	
 	mean_time_to_happen = {

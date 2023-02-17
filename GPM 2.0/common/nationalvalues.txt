@@ -242,3 +242,243 @@ arab_dour_economist = {
     ruling_party_support = -0.2
     issue_change_speed = -0.1
 }
+
+### Asian ###
+
+asian_expert_diplomat = {
+    diplomatic_points_modifier = 0.5
+    badboy = -0.05
+}
+
+asian_successful_industrialist = {
+    factory_owner_cost = -0.25
+    factory_throughput = 0.05
+    farm_RGO_size = -0.05
+    mine_RGO_size = -0.05
+}
+
+asian_ivory_tower_intellectual = {
+    research_points = 1
+    global_pop_consciousness_modifier = 0.01
+}
+
+asian_man_of_the_people = {
+    global_pop_militancy_modifier = -0.02
+    global_pop_consciousness_modifier = 0.02
+    ruling_party_support = 1
+}
+
+asian_landed_gentleman = {
+    RGO_throughput = 0.05
+    farm_RGO_size = 0.05
+    mine_RGO_size = 0.05
+    factory_throughput = -0.05
+}
+
+asian_military_man = {
+    org_regain = 0.1
+    land_organisation = 0.05
+}
+
+asian_lord_admiral = {
+    org_regain = 0.1
+    naval_organisation = 0.05
+}
+
+asian_raving_loon = {
+    global_pop_militancy_modifier = 0.05
+    research_points_modifier = -0.05
+    ruling_party_support = -0.5
+}
+
+asian_luddite = {
+    research_points_modifier = -0.05
+    factory_owner_cost = 0.2
+    RGO_throughput = 0.05
+}
+
+asian_great_statesman = {
+    prestige = 0.01
+    diplomatic_points_modifier = 0.25
+    ruling_party_support = 0.5
+    badboy = -0.03
+}
+
+asian_backroom_boy = {
+    RGO_throughput = 0.02
+    research_points_modifier = 0.02
+    leadership = 0.02
+}
+
+asian_great_reformer = {
+    global_pop_militancy_modifier = -0.02
+    global_pop_consciousness_modifier = 0.04
+    ruling_party_support = 0.2
+    issue_change_speed = 0.2
+}
+
+asian_gauche_buffoon = {
+    prestige = -0.01
+    diplomatic_points_modifier = -0.5
+    issue_change_speed = 0.1
+}
+
+asian_administrative_genius = {
+    mobilisation_size = 0.01
+    supply_consumption = -0.05
+}
+
+asian_visionary_thinker = {
+    research_points_modifier = 0.2
+}
+
+asian_competent_placeholder = {
+}
+
+asian_imperious_autocrat = {
+    prestige = 0.02
+}
+
+asian_prince_of_terror = {
+    global_pop_militancy_modifier = -0.1
+    badboy = 0.02
+}
+
+asian_efficient_sociopath = {
+    factory_output = 0.05
+    leadership = -0.1
+}
+
+asian_pig_headed_isolationist = {
+    global_pop_consciousness_modifier = -0.05
+}
+
+asian_ambitious_union_boss = {
+    global_pop_consciousness_modifier = 0.03
+}
+
+asian_dour_economist = {
+    factory_owner_cost = -0.1
+    ruling_party_support = -0.2
+    issue_change_speed = -0.1
+}
+
+### European ###
+
+european_expert_diplomat = {
+    diplomatic_points_modifier = 0.5
+    badboy = -0.05
+}
+
+european_successful_industrialist = {
+    factory_owner_cost = -0.25
+    factory_throughput = 0.05
+    farm_RGO_size = -0.05
+    mine_RGO_size = -0.05
+}
+
+european_ivory_tower_intellectual = {
+    research_points = 1
+    global_pop_consciousness_modifier = 0.01
+}
+
+european_man_of_the_people = {
+    global_pop_militancy_modifier = -0.02
+    global_pop_consciousness_modifier = 0.02
+    ruling_party_support = 1
+}
+
+european_landed_gentleman = {
+    RGO_throughput = 0.05
+    farm_RGO_size = 0.05
+    mine_RGO_size = 0.05
+    factory_throughput = -0.05
+}
+
+european_military_man = {
+    org_regain = 0.1
+    land_organisation = 0.05
+}
+
+european_lord_admiral = {
+    org_regain = 0.1
+    naval_organisation = 0.05
+}
+
+european_raving_loon = {
+    global_pop_militancy_modifier = 0.05
+    research_points_modifier = -0.05
+    ruling_party_support = -0.5
+}
+
+european_luddite = {
+    research_points_modifier = -0.05
+    factory_owner_cost = 0.2
+    RGO_throughput = 0.05
+}
+
+european_great_statesman = {
+    prestige = 0.01
+    diplomatic_points_modifier = 0.25
+    ruling_party_support = 0.5
+    badboy = -0.03
+}
+
+european_backroom_boy = {
+    RGO_throughput = 0.02
+    research_points_modifier = 0.02
+    leadership = 0.02
+}
+
+european_great_reformer = {
+    global_pop_militancy_modifier = -0.02
+    global_pop_consciousness_modifier = 0.04
+    ruling_party_support = 0.2
+    issue_change_speed = 0.2
+}
+
+european_gauche_buffoon = {
+    prestige = -0.01
+    diplomatic_points_modifier = -0.5
+    issue_change_speed = 0.1
+}
+
+european_administrative_genius = {
+    mobilisation_size = 0.01
+    supply_consumption = -0.05
+}
+
+european_visionary_thinker = {
+    research_points_modifier = 0.2
+}
+
+european_competent_placeholder = {
+}
+
+european_imperious_autocrat = {
+    prestige = 0.02
+}
+
+european_prince_of_terror = {
+    global_pop_militancy_modifier = -0.1
+    badboy = 0.02
+}
+
+european_efficient_sociopath = {
+    factory_output = 0.05
+    leadership = -0.1
+}
+
+european_pig_headed_isolationist = {
+    global_pop_consciousness_modifier = -0.05
+}
+
+european_ambitious_union_boss = {
+    global_pop_consciousness_modifier = 0.03
+}
+
+european_dour_economist = {
+    factory_owner_cost = -0.1
+    ruling_party_support = -0.2
+    issue_change_speed = -0.1
+}

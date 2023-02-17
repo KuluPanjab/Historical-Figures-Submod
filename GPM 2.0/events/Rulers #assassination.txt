@@ -2,7 +2,7 @@ country_event = {
     id = 100050002
     title = "First Minister Assassinated"
     desc = "Our first minister has been murdered!"
-    picture = "danishgovernment"
+    picture = "assassination"
     trigger = {
 		ai = no
         NOT = { nationalvalue = pm_unknown }
@@ -16,5 +16,6 @@ country_event = {
     option = {
         name = "A tragedy!"
         nationalvalue = pm_unknown
+		remove_country_modifier = pm_mandate
     }
 }

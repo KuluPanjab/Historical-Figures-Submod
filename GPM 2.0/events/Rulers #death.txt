@@ -15,5 +15,6 @@ country_event = {
     option = {
         name = "He will be sorely missed."
         nationalvalue = pm_unknown
+		remove_country_modifier = pm_mandate
     }
 }

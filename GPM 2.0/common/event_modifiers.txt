@@ -5053,5 +5053,5 @@ gco_survived_modifier = {
 ## GREAT PERSONALITIES MODIFIERS ##
 
 pm_mandate = {
-	icon = 20
+	icon = 5
 }
